@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 title: 
+=======
+title: Your awesome title
+>>>>>>> master
 timezone: UTC
 collections:
   posts:
