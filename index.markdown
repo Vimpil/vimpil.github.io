@@ -1,6 +1,6 @@
 ---
-title: 'Portfolio'
+title: Portfolio
 date: 2018-09-12 14:59:00 Z
-position: 1
+position: 3
 layout: home
 ---
