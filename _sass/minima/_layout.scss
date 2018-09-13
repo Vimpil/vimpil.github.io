@@ -25,7 +25,7 @@
 }
 
 .site-nav {
-  float: right;
+  float: none;
   line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
@@ -37,13 +37,20 @@
   }
 
   .page-link {
-    color: $text-color;
-    line-height: $base-line-height;
-
+    // color: $text-color;
+    // line-height: $base-line-height;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0.25rem;
+    color: black;
+    font-weight: 400;
+    padding: 0.75rem 1.5rem;
+    text-transform: uppercase;
+    transition: background-color 0.25s;
     // Gaps between nav items, but not on the last one
-    &:not(:last-child) {
-      margin-right: 20px;
-    }
+    // &:not(:last-child) {
+    //   margin-right: 20px;
+    // }
   }
 
   @include media-query($on-palm) {
