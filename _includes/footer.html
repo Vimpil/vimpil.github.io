@@ -1,35 +1,55 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
-    </div>
-
+<!-- <footer class="site-footer h-card"> -->
+<data class="u-url" href="{{ "/" | relative_url }}"></data>
+<div class="wrapper">
+  <!-- <h2 class="footer-heading">{{ site.title | escape }}</h2> -->
+  <div class="footer-col-wrapper">
+    <!-- <div class="footer-col footer-col-1"> -->
+    
+    <!--         <ul class="contact-list">
+      <li class="p-name">
+        {%- if site.author -%}
+        {{ site.author | escape }}
+        {%- else -%}
+        {{ site.title | escape }}
+        {%- endif -%}
+      </li>
+      {%- if site.email -%}
+      <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+      {%- endif -%}
+    </ul>
   </div>
-
-</footer>
+  <div class="footer-col footer-col-2">
+    {%- include social.html -%}
+  </div>
+  <div class="footer-col footer-col-3">
+    <p>{{- site.description | escape -}}</p> -->
+    <div class="smm-group">
+      <a href="https://www.youtube.com/channel/UCZe4XsQiZB0tnBiGCyv7Ydg"><img class="sm-icon" src="assets/youtube.svg"></a>
+      <a href="https://www.facebook.com/JewelerSerdechny"><img class="sm-icon tall" src="assets/facebook.svg"></a>
+      <a href="   "><img class="sm-icon" src="assets/linkedIn.svg"></a>
+    </div>
+    <p>&copy; Vladimir Serdechny | 2016-2017 All artwork copyright</p>
+    <p>Made by Goldenberger</p>
+  </div>
+</div>
+</div>
+</div>
+<nav id="menu">
+<ul>
+{% assign pages_list = (site.pages | sort: 'order') %}
+{% for my_page in pages_list %}
+  {% if my_page.title %}
+    <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
+</nav>
+</div>
+<!-- </footer> -->
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.mmenu.all.js"></script>
+<script type="text/javascript" src="js/jquery.mhead.js"></script>
+<script type="text/javascript" src="js/jquery.filterizr.min.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+<script type="text/javascript" src="js/sendemail.js"></script>
+<script type="text/javascript" src='js/script.js''></script>
