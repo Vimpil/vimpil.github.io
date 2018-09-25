@@ -4,6 +4,7 @@ date: 2018-09-12 14:59:00 Z
 order: 0
 layout: home
 ---
+
 <ul class="nav nav-gallery filters-filteringModeSingle">
 	<!-- For filtering controls add -->
 	<!-- <li class="tab filtr-button filtr filtr-active" data-filter="all"> All items </li> -->
