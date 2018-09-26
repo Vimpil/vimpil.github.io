@@ -19,7 +19,7 @@ layout: home
 </ul>
 <!-- To choose the value by which you want to sort add -->
 <!-- <P>
-{%- include_relative _posts/image_gallery.html -%}
+{%- include_relative _posts/image_gallery.markdown -%}
 </P> -->
 
 <div class="filtr-container">
