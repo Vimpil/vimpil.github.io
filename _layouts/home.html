@@ -5,8 +5,9 @@
   <body>
 
     {%- include header.html -%}
-    <a href="index.html"><img class="VS_logo" src="assets/VS_logo.png"></a>
+    {%- include_relative _posts/head_logo.markdown -%}
     {%- include header_second.html -%}
+    
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
@@ -15,6 +16,8 @@
     </main>
     
     {%- include footer.html -%}
+    {%- include_relative _posts/footer.markdown -%}
+    {%- include footer_second.html -%}
     {%- include filteriz_add.html -%}
   </body>
 
