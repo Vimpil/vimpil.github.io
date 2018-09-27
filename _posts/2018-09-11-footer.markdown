@@ -1,3 +1,12 @@
+---
+title: Footer
+date: 2018-09-11 14:38:08 Z
+categories:
+- jekyll
+- update
+layout: post
+---
+
 <div class="wrapper">
   <!-- <h2 class="footer-heading">{{ site.title | escape }}</h2> -->
   <div class="footer-col-wrapper">
