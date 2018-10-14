@@ -1,0 +1,17 @@
+<!-- <ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul> -->
+<div class="gallery">
+{% for image in site.static_files %}
+    {% if image.path contains 'img/portf_gal/main' %}
+    	<a href="{{ site.baseurl }}{{ image.path }}">
+        <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+    	</a>
+    {% endif %}
+{% endfor %}
+</div>

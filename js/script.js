@@ -1,34 +1,5 @@
 $(document).ready(function() {
 
-	$("ul.nav.nav-gallery.filters-filteringModeSingle li").click(function() {
-		$(this).parent("ul").find('.filtr-active').toggleClass("filtr-active");
-		$(this).toggleClass('filtr-active');
-		console.log("li clicked");
-	});
-
-	// fancybox load
-	/* This is basic - uses default settings */
-
-	/* Using custom settings */
-
-	$("a#inline").fancybox({
-		'hideOnContentClick': true
-	});
-
-	/* Apply fancybox to multiple items */
-
-	$('a.example_group').fancybox({
-		arrows: true,
-		nextClick: true,
-		closeBtn: true,
-		'transitionIn': 'none',
-		'transitionOut': 'none',
-		'titlePosition': 'over',
-		'titleFormat': function(title, currentArray, currentIndex, currentOpts) {
-			return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + ' ' + title + '</span>';
-		}
-	});
-
 	$(function() {
 		$('nav#menu').mmenu()
 	})

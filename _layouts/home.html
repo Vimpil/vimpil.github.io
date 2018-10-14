@@ -5,9 +5,14 @@
   <body>
 
     {%- include header.html -%}
-    {%- include_relative _posts/head_logo.markdown -%}
     {%- include header_second.html -%}
     
+    
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {%- include gallery.html -%}
+      </div>
+    </main>
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
@@ -17,7 +22,6 @@
     
     {%- include footer.html -%}
     {%- include footer_second.html -%}
-    {%- include filteriz_add.html -%}
   </body>
 
 </html>
