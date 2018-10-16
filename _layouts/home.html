@@ -1,9 +1,6 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
   {%- include head.html -%}
-
   <body>
-
     {%- include header.html -%}
     {%- include header_second.html -%}
     
@@ -13,7 +10,24 @@
         {%- include gallery.html -%}
       </div>
     </main>
-
+    {% assign age = 1 %}
+    {{ age }}
+    <h1>Latest Post</h1>
+    {% for post in site.categories.gallery %}
+      {% assign blocks = post.content | split: ">" %}
+      {% for member in blocks %}
+        {% if forloop.first == true %}
+          <div class="">First</div>
+        {% elsif forloop.last == true %}
+          <div class="">Last</div>
+        {% else %}
+          {{ member }}
+          <div class="">1</div>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+     <h1>END Latest Post</h1>
+     
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
@@ -23,5 +37,4 @@
     {%- include footer.html -%}
     {%- include footer_second.html -%}
   </body>
-
 </html>
