@@ -6,7 +6,7 @@ layout: home
 ---
 
 <!-- To choose the value by which you want to sort add -->
-<div class="gallery">
+<!-- <div class="gallery">
 	<a href="img/3.jpg">
 		<img class="img-responsive" alt="sample" src="assets/3.jpg">
 	</a>
@@ -19,4 +19,4 @@ layout: home
 	<a href="img/3.jpg">
 		<img class="img-responsive" alt="sample" src="assets/3.jpg">
 	</a>
-</div>
+</div> -->
