@@ -1,0 +1,10 @@
+<div class="gallery">
+{% for post in site.categories.gallery %}
+  {% assign blocks = post.content | split: "*" %}
+  {% for member in blocks %}
+    {% if forloop.last == true %}
+    {{ member | remove: '<p>' | remove: '</p>' }}      
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+</div>
