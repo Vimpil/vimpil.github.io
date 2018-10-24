@@ -2,7 +2,7 @@
 {% for post in site.categories.gallery %}
   {% assign blocks = post.content | split: "*" %}
   {% for member in blocks %}
-    {% if forloop.first != true and forloop.first != true %}
+    {% if forloop.first != true and forloop.last != true %}
     {{ member | remove: '<p>' | remove: '</p>' }}      
     {% endif %}
   {% endfor %}
