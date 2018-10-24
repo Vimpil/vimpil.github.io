@@ -5,6 +5,7 @@ categories:
 - gallery
 layout: post
 ---
+
 <a href="gallery.html" class="ajax-popup-link"><img class="img-responsive" alt="sample" class="ajax-popup-link" src="img/portf_gal/main/3.jpg"></a>*
 <img class="img-responsive" alt="sample" src="img/portf_gal/1/1.jpg">*
 <img class="img-responsive" alt="sample" src="img/portf_gal/1/2.jpg">*
