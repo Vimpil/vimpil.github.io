@@ -8,7 +8,7 @@ layout: page
 <div class="two-seps">
 	<div class="about-column">
 		<div class="selfie">
-			<img src="img/selfie.jpg" alt="">
+			<img src="assets/selfie.jpg" alt="">
 		</div>
 	</div>
 	<div class="about-column">

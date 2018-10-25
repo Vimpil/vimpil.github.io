@@ -30,29 +30,13 @@ $(document).ready(function() {
 
 	// END fancybox load
 	$('.ajax-popup-link').mouseenter(function(event) {
-		/* Act on the event */
-		console.log($(this));
-
-		// get image folder num
-		// if ((this.find('img').attr('src')) !== 'undefined') {
-
-		// 	console.log(i);
-		// } else {
-		// 	var i = $(this).attr('src');
-		// 	console.log(i);
-		// }
 		var i = ($(this).find('img').attr('src'));
-		console.log(i);
 		if (typeof i !== 'undefined') {
-			console.log("not undef")
 			var strArray = i.match(/(\d+)/g);
 			var link_num = strArray[0];
 			/* get num of link */
-			var urll = ('gallery/2018/09/11/a' + link_num + '.html');
-			console.log(urll);
-			console.log("***********************************");
+			var urll = ('gallery/2018/09/11/a' + link_num + '.html');			
 		}
-		console.log("popup start")
 		$('.ajax-popup-link').magnificPopup({
 			type: 'ajax',
 			cache: false,
@@ -60,14 +44,11 @@ $(document).ready(function() {
 				ajaxContentAdded: (function() {
 					var replaceds = undefined;
 					$.get(urll, function(data) {
-						console.log("data loaded");
-						console.log(urll);
 						var replaceds = data.replace(/<!--|-->/g, "");
 						var replacedsarr = replaceds.split("*");
 						var BreakException = {};
 						try {
 							replacedsarr.forEach(function(element) {
-								console.log(element);
 								var result;
 								var active = 0;
 								if (element.indexOf('<a href="gal') > 0) {
@@ -90,37 +71,12 @@ $(document).ready(function() {
 						} catch (e) {
 							if (e !== BreakException) throw e;
 						}
-
-
-						$('.ajcol').slick();
-						
 						$('.ajcol').slick({
 							dots: true,
 						});
 					});
-
-
-
-					// $('#result').load(urll, function(result) {
-					// 	var replaceds = result.replace(/<!--|-->/g, "");
-					// 	var replacedsarr = replaceds.split("*");
-					// 	replacedsarr.forEach(function(element) {
-					// 		// if(element.hasClass('ajax-popup-link') {
-					// 		// 	console.log("it has");
-					// 		// }
-					// 		$('#result').append(element);
-
-					// 	})
-					// });
-
-					// replaceds_arr.forEach(function(element){
-					// 	console.log("element");
-					// });
-
 				})
 			}
 		});
-
-
 	});
 });
