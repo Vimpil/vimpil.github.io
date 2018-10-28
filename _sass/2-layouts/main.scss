@@ -3,12 +3,17 @@ html, body {
   font-size: 16px;
   font-weight: 400;
   text-rendering: optimizeLegibility;
+  max-height: 100%;
 }
 .display-none{
   display:none;
 }
 #nav-trigger .input{
   display:none;
+}
+input#inputEmail {
+    box-shadow: none;
+    border: 1px solid;
 }
 .site-footer{
   padding:0;
@@ -496,6 +501,7 @@ button{
 textarea#inputMessage {
     height: 200px;
     padding: 15px 18px;
+    border-color:#6f7070;
 }
 img.img-responsive {
     max-width: 100%;
@@ -532,4 +538,18 @@ div#result {
 }
 img.ajax-popup-link:hover{
   opacity:0.9;
+}
+
+div#result{
+  @media screen and (max-width: 480px) {  
+  background-color: white;
+    max-width: 100%;
+    padding-left:0px;
+    position:relative;
+    float:none;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left:10px;
+    padding-right:10px;
+}
 }
