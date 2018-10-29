@@ -35,19 +35,23 @@ $(document).ready(function() {
 			var strArray = i.match(/(\d+)/g);
 			var link_num = strArray[0];
 			/* get num of link */
-			var urll = ('gallery/2018/09/11/a' + link_num + '.html');			
+			var urll = ('gallery/2018/09/11/a' + link_num + '.html');
+			
 		}
 		$('.ajax-popup-link').magnificPopup({
 			type: 'ajax',
 			cache: false,
+			fixedBgPos: true,
+			tLoading: '',
 			callbacks: {
-				ajaxContentAdded: (function() {
+				parseAjax: (function() {
 					var replaceds = undefined;
 					$.get(urll, function(data) {
 						var replaceds = data.replace(/<!--|-->/g, "");
 						var replacedsarr = replaceds.split("*");
 						var BreakException = {};
 						try {
+
 							replacedsarr.forEach(function(element) {
 								var result;
 								var active = 0;
@@ -71,9 +75,11 @@ $(document).ready(function() {
 						} catch (e) {
 							if (e !== BreakException) throw e;
 						}
+						$(".mfp-bg").attr("visibility","visible");
+			$(".mfp-wrap").attr("visibility","visible");
 						$('.ajcol').slick({
 							dots: true,
-						});
+						});		
 					});
 				})
 			}
