@@ -316,6 +316,7 @@ a.fancybox-item.fancybox-close {
 
 img.sm-icon {
   width: 3.5em;
+  margin:0px 5px;
 }
 
 img.sm-icon.you{
@@ -337,7 +338,7 @@ img.sm-icon:hover {
 }
 
 .smm-group {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .header {
@@ -526,7 +527,7 @@ img.img-responsive {
     transition: background-color 0.25s;
 }
 .gallery {
-    margin-bottom: 45px;
+    margin-bottom: 25px;
 }
 .slick-slide{
 
@@ -578,4 +579,17 @@ a.ajax-popup-link:hover:after{
   margin: 0 auto;
   -webkit-animation: rotateplane 1.2s infinite ease-in-out;
   animation: rotateplane 1.2s infinite ease-in-out;
+}
+#hidden{
+  visibility:hidden;
+}
+.ajcol{
+  opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease;
+    -webkit-transition: opacity 1s ease;
+}
+.ajcol.slick-initialized{
+  visibility: visible;
+    opacity: 1;   
 }

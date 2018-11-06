@@ -19,6 +19,10 @@
   background: #0b0b0b;
   opacity: .8;
   filter: alpha(opacity = 80);
+  visibility: hidden;
+}
+.mfp-bg.mfp-ready{
+  visibility: visible;
 }
 
 .mfp-wrap {
@@ -30,7 +34,12 @@
   position: fixed;
   outline: 0 !important;
   -webkit-backface-visibility: hidden;
+  visibility: hidden;
 }
+
+.mfp-wrap.mfp-ready{
+  visibility: visible;
+  }
 
 .mfp-container {
   text-align: center;
@@ -451,13 +460,25 @@ img.mfp-img {
   }
 }
 
-.ajax-text-and-image {
+.ajax-text-and-image{
   max-width: 800px;
   margin: 20px auto;
   background: #FFF;
   padding: 0;
-  line-height: 0;
+  line-height: 0;  
+  visibility: hidden;
 }
+.ajax-text-and-image *{
+  visibility: hidden;
+  transition: opacity 1s ease;
+    -webkit-transition: opacity 1s ease;
+}
+// .mfp-ready .ajax-text-and-image *{
+//   visibility: visible;
+//     opacity: 1;  
+//      transition: opacity 1s ease;
+//     -webkit-transition: opacity 1s ease;
+// }
 
 .ajcol {
   width: 60%;
