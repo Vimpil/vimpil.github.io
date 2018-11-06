@@ -51,8 +51,6 @@ $(document).ready(function() {
 						var replacedsarr = replaceds.split("*");
 						var BreakException = {};
 						try {
-							$(".mfp-bg").attr('id', 'hidden');
-							$(".mfp-wrap").attr('id', 'hidden');
 							replacedsarr.forEach(function(element) {
 								var result;
 								var active = 0;
@@ -76,12 +74,34 @@ $(document).ready(function() {
 						} catch (e) {
 							if (e !== BreakException) throw e;
 						}
+						// timer
+						var timer = null;
+						var WAIT_TIME = 50; // 3 seconds
+						var afterThreeSecondsDoThis = function() {
+							$('.ajcol').slick({
+								dots: true,
+							});
+							$('.ajax-text-and-image').css('visibility','visible');
+							$('.ajax-text-and-image').css('opacity','1');
+							$('.ajax-text-and-image').css('transition','opacity 1s ease');
+							$('.ajax-text-and-image *').css('visibility','visible');
+							$('.ajax-text-and-image *').css('opacity','1');
+							$('.ajax-text-and-image *').css('transition','opacity 1s ease');
+							
 
-						$('.ajcol').slick({
-							dots: true,
-						});
-						$(".mfp-bg").removeAttr("id", "hidden");
-						$(".mfp-wrap").removeAttr("id", "hidden");
+							// 	visibility: 'visible',
+							// 	opacity: '1',
+							// 	transition: 'opacity 1s ease',
+							// 	-webkit-transition: 'opacity 1s ease',
+							// });
+							console.log('3 sec past');
+							clearTimeout(timer); // remove timer
+						}
+						var startTimer = function() {
+								timer = setTimeout(afterThreeSecondsDoThis, WAIT_TIME);
+							};
+							startTimer();
+							// END timer
 					});
 
 				})
