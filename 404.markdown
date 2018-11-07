@@ -1,6 +1,6 @@
 ---
 position: 5
-layout: default
+layout: page
 ---
 
 <style type="text/css" media="screen">
