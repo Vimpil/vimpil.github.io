@@ -1,6 +1,8 @@
 ---
 title: a4
 date: 2018-11-07 10:40:00 Z
+categories:
+- gallery
 ---
 
 <a href="gallery.html" class="ajax-popup-link"><img class="img-responsive" alt="sample" class="ajax-popup-link" src="img/portf_gal/main/3.jpg"></a>*
