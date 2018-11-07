@@ -5,6 +5,12 @@ html, body {
   text-rendering: optimizeLegibility;
   height: 100%;
 }
+* , *:before, *:after{ 
+     box-sizing:border-box; 
+     -moz-box-sizing:border-box; 
+     -webkit-box-sizing:border-box; 
+     -ms-box-sizing:border-box;
+   }
 .display-none{
   display:none;
 }
@@ -571,15 +577,24 @@ a.ajax-popup-link:hover:after{
 .none{
   display:none;
 }
+
 .mfp-preloader {
-  width: 30px;
-  height: 30px;
+  content: "";
+  height: 50px;
+  width: 50px;
+  text-align: center;
   background-color: #FFF;
   opacity: 0.65;
   margin: 0 auto;
   -webkit-animation: rotateplane 1.2s infinite ease-in-out;
   animation: rotateplane 1.2s infinite ease-in-out;
-}
+  background-image: url(VS_logo.svg);
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 26px;
+  }
+
 #hidden{
   visibility:hidden;
 }
@@ -592,4 +607,13 @@ a.ajax-popup-link:hover:after{
 .ajcol.slick-initialized{
   visibility: visible;
     opacity: 1;   
+}
+.gallery a{
+  margin-bottom: 4px;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .slick-prev, .slick-next{
+    width: 42px;
+    height: 28px;
+  }
 }

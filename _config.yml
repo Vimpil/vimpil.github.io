@@ -3,19 +3,17 @@ title: Your awesome title
 timezone: UTC
 collections:
   posts:
-    title: Posts
+    title: Vladimir Serdechny Jewelry Modeling
     output: true
   uploads:
-    title: Uploads
+    title: Vladimir Serdechny Jewelry Modeling
     output: true
 email: your-email@example.com
-description: Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+description: Jewelry 3d modeling for printing, cnc cutting, waxing; 3d modeling of watches, bracelets, earings, rings.
 baseurl: ''
 url: ''
-twitter_username: jekyllrb
-github_username: jekyll
+twitter_username: serdechnyy
+github_username: serdechnyy
 markdown: kramdown
 theme: minima
 plugins:

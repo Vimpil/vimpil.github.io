@@ -36,7 +36,10 @@
   -webkit-backface-visibility: hidden;
   visibility: hidden;
 }
-
+.mfp-preloader{
+  visibility: visible;
+  display: inherit;
+}
 .mfp-wrap.mfp-ready{
   visibility: visible;
   }
@@ -468,7 +471,7 @@ img.mfp-img {
   line-height: 0;  
   visibility: hidden;
 }
-.ajax-text-and-image *{
+.ajax-text-and-image .inside_gal, .ajax-text-and-image .main_text{
   visibility: hidden;
   transition: opacity 1s ease;
     -webkit-transition: opacity 1s ease;
