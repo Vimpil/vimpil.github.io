@@ -10,4 +10,4 @@ layout: post
 <img class="img-responsive" alt="sample" src="img/portf_gal/3/1.jpg">*
 <img class="img-responsive" alt="sample" src="img/portf_gal/3/2.jpg">*
 <img class="img-responsive" alt="sample" src="img/portf_gal/3/3.jpg">*
-<div class="description">Text</div>*
+<div class="description"><div class="P9YgZ"><div class="C7I1f X7jCj"><div class="C4VMK"><h2 class="_6lAjh"><a class="FPmhX notranslate TlrDj" title="v_serdechny" href="/v_serdechny/">v_serdechny</a></h2><span title="Отредактировано">Design ring for <a class="notranslate" href="/hardknockershb/">@hardknockershb</a> <br>Big rings for big men!</span></div></div></div></div>*
