@@ -1,0 +1,11 @@
+---
+title: a4
+date: 2018-09-11 00:00:00 Z
+categories:
+- gallery
+---
+
+<a href="gallery.html" class="ajax-popup-link"><img class="img-responsive" alt="sample" class="ajax-popup-link" src="img/portf_gal/main/4.jpg"></a>*
+<img class="img-responsive" alt="sample" src="img/portf_gal/4/1.jpg">*
+<img class="img-responsive" alt="sample" src="img/portf_gal/4/2.jpg">*
+<div class="description"><div class="C4VMK"><h2 class="_6lAjh"><a class="FPmhX notranslate TlrDj" title="v_serdechny" href="/v_serdechny/">v_serdechny</a></h2><span>Created by customer sketches.<br>Project for <a class="notranslate" href="/jensenreign/">@jensenreign</a> <br><a href="/explore/tags/design/">#Design</a> <a href="/explore/tags/jewelry/">#Jewelry</a> <a href="/explore/tags/3dmodeling/">#3Dmodeling</a> <a href="/explore/tags/3dprinting/">#3Dprinting</a> <a href="/explore/tags/render/">#Render</a> <a href="/explore/tags/model/">#Model</a> <a href="/explore/tags/art/">#Art</a> <a href="/explore/tags/sketch/">#Sketch</a> <a href="/explore/tags/cg/">#CG</a> <a href="/explore/tags/sculpting/">#Sculpting</a> <a href="/explore/tags/bledner/">#Bledner</a> 3D <a href="/explore/tags/skull/">#skull</a> <a href="/explore/tags/ring/">#Ring</a> <a href="/explore/tags/metall/">#Metall</a></span></div></div>*
