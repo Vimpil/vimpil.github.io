@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<div id="page" class="main_page">
+  <div class="mh-head Sticky header" id="my-header">
+    <a href="#menu"><span></span></a>
+    Строй Союз
+  </div>
+  {%- include head.html -%}
+  <header>
+  {%- include header.html -%}
+</header>
+  <main>
+    {%- include topnav.html -%}
+    {%- include leftnavmain.html -%}
+    <section class="main">
+      {%- include sitemap.html -%}
+      {%- include slider.html -%}
+      <h3>Наша спецтехника</h3>
+      {%- include gallerymain.html -%}
+      {{- content -}}
+    </section>
+  </main>
+
+  <footer>
+    {%- include footer.html -%}
+  </footer>
+{%- include scripts.html -%}
+{%- include sliderscript.html -%}
+</html>
