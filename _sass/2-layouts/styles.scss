@@ -415,9 +415,6 @@ aside.left_nav .list-with-heading a span {
     margin-bottom: 10px;
 }
 
-#page {
-    background-color: white;
-}
 
 .header, .footer {
     position: fixed;
@@ -498,7 +495,7 @@ section.main {
 
 .sitemap li:not(:last-child):after {
     content: "\f0da";
-    font-family: "FontAwesome";
+    font-family: "Font Awesome 5 Free";
     padding: 10px;
     color: lightgray;
     text-decoration: inherit;
@@ -880,7 +877,7 @@ input#name, input#ph_or_email {
     box-shadow: 0 1px 1px 0 rgba(1, 0, 1, 0) inset;
     position: relative;
     width: 90%;
-    color: #c2c2c2;
+    color: #757575;
     font-family: "Tahoma";
     font-size: 15px;
 }
@@ -1783,6 +1780,7 @@ button.slick-prev.pull-left.slick-arrow:hover, button.slick-next.pull-right.slic
 cursor: pointer;
 }
 
+
 button.slick-prev.pull-left.slick-arrow {
 display: block;
 height: 20px;
@@ -1793,7 +1791,7 @@ background-position: center;
 background-size: 9px 12px;
 position: absolute;
 background-color: #00000057;
-bottom: 4.5%;
+bottom: 7.5%;
 right: 5.9%;
 z-index: 100;
 outline: none;
@@ -1809,7 +1807,7 @@ background-position: center;
 background-size: 9px 12px;
 position: absolute;
 background-color: #00000057;
-bottom: 4.6%;
+bottom: 7.5%;
 right: 2.7%;
 outline: none;
 }
@@ -1825,7 +1823,9 @@ color: #4789fc;
 }
 
 .gal_box {display: flex;justify-content: space-between;margin-bottom: 15px;}
-
+.gal_box a {
+    display: block;
+}
 .box {
 width: 128px;
 }
@@ -2042,6 +2042,8 @@ position: relative;
 }
 .main_page .question_answer {
     position: relative;
+    max-width: 300px;
+    margin: 0 auto;
 }
 
 .topnav .services i.fa {
