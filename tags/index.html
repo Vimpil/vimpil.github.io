@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>GamifyMeBro</title>
+<!-- begin _includes/seo.html --><title>Posts by Tag - GamifyMeBro</title>
 <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
 
 
@@ -20,8 +20,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="GamifyMeBro">
-<meta property="og:title" content="GamifyMeBro">
-<meta property="og:url" content="http://localhost:4000/">
+<meta property="og:title" content="Posts by Tag">
+<meta property="og:url" content="http://localhost:4000/tags/">
 
 
   <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
@@ -37,7 +37,7 @@
 
 
 
-<link rel="canonical" href="http://localhost:4000/">
+<link rel="canonical" href="http://localhost:4000/tags/">
 
 
 
@@ -99,7 +99,7 @@
 
   </head>
 
-  <body class="layout--home">
+  <body class="layout--tags">
     <nav class="skip-links">
   <h2 class="screen-reader-text">Skip links</h2>
   <ul>
@@ -276,18 +276,37 @@
 
   <div class="archive">
     
-      <h1 id="page-title" class="page__title"></h1>
+      <h1 id="page-title" class="page__title">Posts by Tag</h1>
     
     
 
-<h3 class="archive__subtitle">Recent Posts</h3>
 
 
 
 
-<div class="entries-list">
+<ul class="taxonomy__index">
   
     
+      
+        <li>
+          <a href="#cv">
+            <strong>CV</strong> <span class="taxonomy__count">1</span>
+          </a>
+        </li>
+      
+    
+  
+</ul>
+
+
+
+  
+    
+      <section id="cv" class="taxonomy__section">
+        <h2 class="archive__subtitle">CV</h2>
+        <div class="entries-list">
+          
+            
 
 
 
@@ -326,10 +345,12 @@
   </article>
 </div>
 
+          
+        </div>
+        <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
+      </section>
+    
   
-</div>
-
-
 
 
   </div>
