@@ -1,0 +1,1913 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>GamifyMeBro</title>
+	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Tue, 07 May 2024 13:07:44 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.2</generator>
+	<item>
+		<title>CORS js limited usage</title>
+		<link>/2024/05/03/cors-js-limited-usage/</link>
+		
+		<dc:creator><![CDATA[Vimpil]]></dc:creator>
+		<pubDate>Fri, 03 May 2024 14:54:23 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=119</guid>
+
+					<description><![CDATA[Resolve CORS Errors Once and For All: Three Methods : cors js limited usage Solution: it is easier to make local/hosting server app. Java app: https://github.com/Vimpil/Java-Gamification-URL-Timer-Random-Photo-Extractor]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-embed is-type-wp-embed is-provider-codepen wp-block-embed-codepen"><div class="wp-block-embed__wrapper">
+<iframe class="wp-embedded-content" sandbox="allow-scripts" security="restricted" title="Random photos" src="https://codepen.io/Vimpil/embed/preview/JjVQpKx?default-tabs=html%2Cresult&#038;height=300&#038;host=https%3A%2F%2Fcodepen.io&#038;slug-hash=JjVQpKx#?secret=SKgIay11Nw" data-secret="SKgIay11Nw" scrolling="no" frameborder="0" height="300"></iframe>
+</div></figure>
+
+
+
+<p>Resolve CORS Errors Once and For All: Three Methods : </p>
+
+
+
+<p><a href="https://medium.com/@stephen.biston/resolve-cors-errors-once-and-for-all-three-methods-d821c258d025#:~:text=CORS%20errors%20can%20essentially%20always,server%20and%20returning%20the%20result." data-type="link" data-id="https://medium.com/@stephen.biston/resolve-cors-errors-once-and-for-all-three-methods-d821c258d025#:~:text=CORS%20errors%20can%20essentially%20always,server%20and%20returning%20the%20result.">cors js limited usage</a></p>
+
+
+
+<p>Solution: it is easier to make local/hosting server app. Java app: <a href="https://github.com/Vimpil/Java-Gamification-URL-Timer-Random-Photo-Extractor">https://github.com/Vimpil/Java-Gamification-URL-Timer-Random-Photo-Extractor</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Solidity Zero to Hero Course</title>
+		<link>/2024/04/26/solidity-zero-to-hero-course/</link>
+		
+		<dc:creator><![CDATA[Vimpil]]></dc:creator>
+		<pubDate>Fri, 26 Apr 2024 18:16:37 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=100</guid>
+
+					<description><![CDATA[My course notes: In Solidity, msg.sender refers to the address of the account (or contract) that is currently interacting with the contract. You can assign it to a variable like so: solidityCopy codepragma solidity ^0.8.0; contract MyContract { address public senderAddress; // Declaring a public variable to store the sender's address function storeSenderAddress() public { [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div data-wp-interactive="core/file" class="wp-block-file"><object data-wp-bind--hidden="!state.hasPdfPreview"  class="wp-block-file__embed" data="/wp-content/uploads/2024/04/Certificate_for_Kirill_Shevcheno-1.pdf" type="application/pdf" style="width:100%;height:600px" aria-label="Embed of Certificate_for_Kirill_Shevcheno-1."></object><a id="wp-block-file--media-c9a91081-be87-4bc1-9b0c-527017fe2851" href="/wp-content/uploads/2024/04/Certificate_for_Kirill_Shevcheno-1.pdf">Certificate_for_Kirill_Shevcheno-1</a><a href="/wp-content/uploads/2024/04/Certificate_for_Kirill_Shevcheno-1.pdf" class="wp-block-file__button wp-element-button" download aria-describedby="wp-block-file--media-c9a91081-be87-4bc1-9b0c-527017fe2851">Download</a></div>
+
+
+
+<p class="has-large-font-size">My course notes:</p>
+
+
+
+<div class="flex-col gap-1 md:gap-3"><div class="flex flex-grow flex-col max-w-full"><div data-message-author-role="assistant" data-message-id="2db4c496-7e54-4a2e-a45c-4f05fd5783da" dir="auto" class="min-h-[20px] text-message flex flex-col items-start gap-3 whitespace-pre-wrap break-words [.text-message+&amp;]:mt-5 overflow-x-auto"><div class="markdown prose w-full break-words dark:prose-invert light"><p>In Solidity, <code>msg.sender</code> refers to the address of the account (or contract) that is currently interacting with the contract. You can assign it to a variable like so:</p><pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>solidity</span><div class="flex items-center"><span class="" data-state="closed"><button class="flex gap-1 items-center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 3.5C10.8954 3.5 10 4.39543 10 5.5H14C14 4.39543 13.1046 3.5 12 3.5ZM8.53513 3.5C9.22675 2.3044 10.5194 1.5 12 1.5C13.4806 1.5 14.7733 2.3044 15.4649 3.5H17.25C18.9069 3.5 20.25 4.84315 20.25 6.5V18.5C20.25 20.1569 19.1569 21.5 17.25 21.5H6.75C5.09315 21.5 3.75 20.1569 3.75 18.5V6.5C3.75 4.84315 5.09315 3.5 6.75 3.5H8.53513ZM8 5.5H6.75C6.19772 5.5 5.75 5.94772 5.75 6.5V18.5C5.75 19.0523 6.19772 19.5 6.75 19.5H17.25C18.0523 19.5 18.25 19.0523 18.25 18.5V6.5C18.25 5.94772 17.8023 5.5 17.25 5.5H16C16 6.60457 15.1046 7.5 14 7.5H10C8.89543 7.5 8 6.60457 8 5.5Z" fill="currentColor"></path></svg>Copy code</button></span></div></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-solidity">pragma solidity ^0.8.0;
+
+contract MyContract {
+    address public senderAddress; // Declaring a public variable to store the sender's address
+    
+    function storeSenderAddress() public {
+        senderAddress = msg.sender; // Assigning msg.sender to the variable senderAddress
+    }
+}
+</code></div></div></pre><p>In this example, the function <code>storeSenderAddress()</code> will store the address of the sender who called this function into the variable <code>senderAddress</code>.</p></div></div></div><div class="mt-1 flex gap-3 empty:hidden"><div class="text-gray-400 flex self-end lg:self-center items-center justify-center lg:justify-start mt-0 -ml-1 h-7 gap-[2px] invisible"><span class="" data-state="closed"><button class="flex items-center gap-1.5 rounded-md p-1 text-xs text-token-text-tertiary hover:text-token-text-primary"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-md"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 3.5C10.8954 3.5 10 4.39543 10 5.5H14C14 4.39543 13.1046 3.5 12 3.5ZM8.53513 3.5C9.22675 2.3044 10.5194 1.5 12 1.5C13.4806 1.5 14.7733 2.3044 15.4649 3.5H17.25C18.9069 3.5 20.25 4.84315 20.25 6.5V18.5C20.25 20.1569 19.1569 21.5 17.25 21.5H6.75C5.09315 21.5 3.75 20.1569 3.75 18.5V6.5C3.75 4.84315 5.09315 3.5 6.75 3.5H8.53513ZM8 5.5H6.75C6.19772 5.5 5.75 5.94772 5.75 6.5V18.5C5.75 19.0523 6.19772 19.5 6.75 19.5H17.25C18.0523 19.5 18.25 19.0523 18.25 18.5V6.5C18.25 5.94772 17.8023 5.5 17.25 5.5H16C16 6.60457 15.1046 7.5 14 7.5H10C8.89543 7.5 8 6.60457 8 5.5Z" fill="currentColor"></path></svg></button></span><div class="flex"><span class="" data-state="closed"><button class="p-1 rounded-md text-token-text-tertiary hover:text-token-text-primary"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-md"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.8727 21.4961C11.6725 21.8466 11.2811 22.0423 10.8805 21.9922L10.4267 21.9355C7.95958 21.6271 6.36855 19.1665 7.09975 16.7901L7.65054 15H6.93226C4.29476 15 2.37923 12.4921 3.0732 9.94753L4.43684 4.94753C4.91145 3.20728 6.49209 2 8.29589 2H18.0045C19.6614 2 21.0045 3.34315 21.0045 5V12C21.0045 13.6569 19.6614 15 18.0045 15H16.0045C15.745 15 15.5054 15.1391 15.3766 15.3644L11.8727 21.4961ZM14.0045 4H8.29589C7.39399 4 6.60367 4.60364 6.36637 5.47376L5.00273 10.4738C4.65574 11.746 5.61351 13 6.93226 13H9.00451C9.32185 13 9.62036 13.1506 9.8089 13.4059C9.99743 13.6612 10.0536 13.9908 9.96028 14.2941L9.01131 17.3782C8.6661 18.5002 9.35608 19.6596 10.4726 19.9153L13.6401 14.3721C13.9523 13.8258 14.4376 13.4141 15.0045 13.1902V5C15.0045 4.44772 14.5568 4 14.0045 4ZM17.0045 13V5C17.0045 4.64937 16.9444 4.31278 16.8338 4H18.0045C18.5568 4 19.0045 4.44772 19.0045 5V12C19.0045 12.5523 18.5568 13 18.0045 13H17.0045Z" fill="currentColor"></path></svg></button></span></div></div></div><div class="pr-2 lg:pr-0"></div></div>
+
+
+
+<div class="markdown prose w-full break-words dark:prose-invert light"><p>In Solidity, a constructor is a special function that is executed only once when the contract is deployed to the blockchain. It is used to initialize contract state variables or execute any one-time setup tasks.</p><p>Here&#8217;s a basic example:</p><pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>solidity</span><div class="flex items-center"><span class="" data-state="closed"><button class="flex gap-1 items-center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 3.5C10.8954 3.5 10 4.39543 10 5.5H14C14 4.39543 13.1046 3.5 12 3.5ZM8.53513 3.5C9.22675 2.3044 10.5194 1.5 12 1.5C13.4806 1.5 14.7733 2.3044 15.4649 3.5H17.25C18.9069 3.5 20.25 4.84315 20.25 6.5V18.5C20.25 20.1569 19.1569 21.5 17.25 21.5H6.75C5.09315 21.5 3.75 20.1569 3.75 18.5V6.5C3.75 4.84315 5.09315 3.5 6.75 3.5H8.53513ZM8 5.5H6.75C6.19772 5.5 5.75 5.94772 5.75 6.5V18.5C5.75 19.0523 6.19772 19.5 6.75 19.5H17.25C18.0523 19.5 18.25 19.0523 18.25 18.5V6.5C18.25 5.94772 17.8023 5.5 17.25 5.5H16C16 6.60457 15.1046 7.5 14 7.5H10C8.89543 7.5 8 6.60457 8 5.5Z" fill="currentColor"></path></svg>Copy code</button></span></div></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-solidity">pragma solidity ^0.8.0;
+
+contract MyContract {
+    uint public myNumber;
+
+    // Constructor
+    constructor(uint initialValue) {
+</code></div></div></pre></div>
+
+
+
+<div class="markdown prose w-full break-words dark:prose-invert light"><p>In Solidity, both <code>immutable</code> and <code>constant</code> are keywords used to declare state variables or functions, but they serve different purposes:</p><ol><li><p><strong>Immutable</strong>:</p><ul><li>Declaring a state variable as <code>immutable</code> means that its value cannot be changed after contract deployment.</li><li>It is initialized at the time of contract creation and its value remains constant throughout the contract&#8217;s lifetime.</li><li>Immutable variables are particularly useful for storing constants or values that are known at compile-time.</li></ul></li></ol><p>Example:</p><pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>solidity</span><div class="flex items-center"><span class="" data-state="closed"><button class="flex gap-1 items-center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 3.5C10.8954 3.5 10 4.39543 10 5.5H14C14 4.39543 13.1046 3.5 12 3.5ZM8.53513 3.5C9.22675 2.3044 10.5194 1.5 12 1.5C13.4806 1.5 14.7733 2.3044 15.4649 3.5H17.25C18.9069 3.5 20.25 4.84315 20.25 6.5V18.5C20.25 20.1569 19.1569 21.5 17.25 21.5H6.75C5.09315 21.5 3.75 20.1569 3.75 18.5V6.5C3.75 4.84315 5.09315 3.5 6.75 3.5H8.53513ZM8 5.5H6.75C6.19772 5.5 5.75 5.94772 5.75 6.5V18.5C5.75 19.0523 6.19772 19.5 6.75 19.5H17.25C18.0523 19.5 18.25 19.0523 18.25 18.5V6.5C18.25 5.94772 17.8023 5.5 17.25 5.5H16C16 6.60457 15.1046 7.5 14 7.5H10C8.89543 7.5 8 6.60457 8 5.5Z" fill="currentColor"></path></svg>Copy code</button></span></div></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-solidity">pragma solidity ^0.8.0;
+
+contract MyContract {
+    address public immutable owner;
+    
+    constructor() {
+        owner = msg.sender; // Initialize owner variable with the address that deploys the contract
+    }
+}
+</code></div></div></pre><ol start="2"><li><p><strong>Constant</strong>:</p><ul><li><code>constant</code> is used in function declarations to specify that the function will not modify the contract&#8217;s state.</li><li>It indicates that the function does not alter any state variables and only performs read operations.</li><li>Constant functions do not consume gas when called externally, as they don&#8217;t change the blockchain state.</li></ul></li></ol><p>Example:</p><pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>solidity</span><div class="flex items-center"><span class="" data-state="closed"><button class="flex gap-1 items-center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 3.5C10.8954 3.5 10 4.39543 10 5.5H14C14 4.39543 13.1046 3.5 12 3.5ZM8.53513 3.5C9.22675 2.3044 10.5194 1.5 12 1.5C13.4806 1.5 14.7733 2.3044 15.4649 3.5H17.25C18.9069 3.5 20.25 4.84315 20.25 6.5V18.5C20.25 20.1569 19.1569 21.5 17.25 21.5H6.75C5.09315 21.5 3.75 20.1569 3.75 18.5V6.5C3.75 4.84315 5.09315 3.5 6.75 3.5H8.53513ZM8 5.5H6.75C6.19772 5.5 5.75 5.94772 5.75 6.5V18.5C5.75 19.0523 6.19772 19.5 6.75 19.5H17.25C18.0523 19.5 18.25 19.0523 18.25 18.5V6.5C18.25 5.94772 17.8023 5.5 17.25 5.5H16C16 6.60457 15.1046 7.5 14 7.5H10C8.89543 7.5 8 6.60457 8 5.5Z" fill="currentColor"></path></svg>Copy code</button></span></div></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-solidity">pragma solidity ^0.8.0;
+
+contract MyContract {
+    uint public myNumber;
+
+    // Constant function
+    function getNumber() public view returns (uint) {
+        return myNumber;
+    }
+}
+</code></div></div></pre><p>In summary, <code>immutable</code> is used for state variables whose values are set once during contract deployment and cannot be changed afterward, while <code>constant</code> is used for functions that do not modify the state of the contract.</p></div>
+
+
+
+<div class="markdown prose w-full break-words dark:prose-invert light"><p>Solidity function modifiers are used to change the behavior of functions in a reusable and efficient manner. They allow you to add additional logic or conditions to functions without duplicating code. Function modifiers are typically used in the following scenarios:</p><ol><li><p><strong>Access Control</strong>: Modifiers can be used to restrict access to certain functions, allowing only specific accounts or roles to execute them. For example, you can create a modifier to ensure that only the contract owner can call certain functions.</p></li><li><p><strong>Input Validation</strong>: Modifiers can validate input parameters before executing a function. This helps ensure that the function is called with valid arguments, preventing potential errors or misuse.</p></li><li><p><strong>State Management</strong>: Modifiers can be used to check the current state of the contract or its variables before allowing a function to execute. For example, you can create a modifier to check if a contract is in a certain state before allowing a state-changing function to be called.</p></li><li><p><strong>Gas Optimization</strong>: Modifiers can help optimize gas usage by encapsulating common logic that would otherwise be repeated in multiple functions. This can lead to more efficient and cheaper transactions on the Ethereum blockchain.</p></li></ol><p>Here&#8217;s a simple example demonstrating the usage of a modifier for access control:</p><pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>solidity</span><div class="flex items-center"><span class="" data-state="closed"><button class="flex gap-1 items-center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 3.5C10.8954 3.5 10 4.39543 10 5.5H14C14 4.39543 13.1046 3.5 12 3.5ZM8.53513 3.5C9.22675 2.3044 10.5194 1.5 12 1.5C13.4806 1.5 14.7733 2.3044 15.4649 3.5H17.25C18.9069 3.5 20.25 4.84315 20.25 6.5V18.5C20.25 20.1569 19.1569 21.5 17.25 21.5H6.75C5.09315 21.5 3.75 20.1569 3.75 18.5V6.5C3.75 4.84315 5.09315 3.5 6.75 3.5H8.53513ZM8 5.5H6.75C6.19772 5.5 5.75 5.94772 5.75 6.5V18.5C5.75 19.0523 6.19772 19.5 6.75 19.5H17.25C18.0523 19.5 18.25 19.0523 18.25 18.5V6.5C18.25 5.94772 17.8023 5.5 17.25 5.5H16C16 6.60457 15.1046 7.5 14 7.5H10C8.89543 7.5 8 6.60457 8 5.5Z" fill="currentColor"></path></svg>Copy code</button></span></div></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-solidity">pragma solidity ^0.8.0;
+
+contract MyContract {
+    address public owner;
+
+    // Modifier to restrict access to the owner
+    modifier onlyOwner() {
+        require(msg.sender == owner, "Only owner can call this function");
+        _; // Continue executing the function if the condition is met
+    }
+
+    constructor() {
+        owner = msg.sender;
+    }
+
+    // Function that can only be called by the owner
+    function doSomething() public onlyOwner {
+        // Add function logic here
+    }
+}
+</code></div></div></pre><p>In this example, the <code>onlyOwner</code> modifier ensures that the <code>doSomething()</code> function can only be called by the contract owner. If any other account tries to call it, the transaction will revert with an error message.</p></div>
+
+
+
+<div class="markdown prose w-full break-words dark:prose-invert light"><p>In Solidity, <code>memory</code> is a temporary place to store data within a function execution context. Unlike storage, which persists between function calls and is part of the contract&#8217;s state, data stored in memory only exists for the duration of the function execution.</p><p>Memory is often used for variables that are created and used locally within a function and don&#8217;t need to be persisted beyond its execution. It&#8217;s particularly useful for:</p><ol><li>Storing function parameters and local variables.</li><li>Handling data that is too large to be efficiently stored in storage.</li><li>Performing computations or transformations on data without modifying the contract&#8217;s state.</li></ol><p>Here&#8217;s a simple example demonstrating the usage of memory:</p><pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>solidity</span><div class="flex items-center"><span class="" data-state="closed"><button class="flex gap-1 items-center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 3.5C10.8954 3.5 10 4.39543 10 5.5H14C14 4.39543 13.1046 3.5 12 3.5ZM8.53513 3.5C9.22675 2.3044 10.5194 1.5 12 1.5C13.4806 1.5 14.7733 2.3044 15.4649 3.5H17.25C18.9069 3.5 20.25 4.84315 20.25 6.5V18.5C20.25 20.1569 19.1569 21.5 17.25 21.5H6.75C5.09315 21.5 3.75 20.1569 3.75 18.5V6.5C3.75 4.84315 5.09315 3.5 6.75 3.5H8.53513ZM8 5.5H6.75C6.19772 5.5 5.75 5.94772 5.75 6.5V18.5C5.75 19.0523 6.19772 19.5 6.75 19.5H17.25C18.0523 19.5 18.25 19.0523 18.25 18.5V6.5C18.25 5.94772 17.8023 5.5 17.25 5.5H16C16 6.60457 15.1046 7.5 14 7.5H10C8.89543 7.5 8 6.60457 8 5.5Z" fill="currentColor"></path></svg>Copy code</button></span></div></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-solidity">pragma solidity ^0.8.0;
+
+contract MemoryExample {
+    // Function to concatenate two strings
+    function concatenateStrings(string memory a, string memory b) public pure returns (string memory) {
+        // Declare a memory variable to store the concatenated string
+        string memory result = string(abi.encodePacked(a, b));
+        return result;
+    }
+}
+</code></div></div></pre><p>In this example, the <code>concatenateStrings</code> function takes two string parameters (<code>a</code> and <code>b</code>) stored in memory, concatenates them, and returns the result. The <code>string memory</code> type specifies that the strings are stored in memory.</p><p>Remember that data stored in memory is temporary and is discarded once the function execution completes. Therefore, it&#8217;s suitable for handling transient data within function executions but not for persisting data across multiple function calls or transactions.</p></div>
+
+
+
+<div class="markdown prose w-full break-words dark:prose-invert light"><p>In Solidity, <code>enum</code> (short for enumeration) is a user-defined data type used to define a set of named constants. Enums are useful for representing a fixed set of possible states or options within a contract. Each constant within the enum is assigned an integer value, starting from 0 by default, with subsequent constants incremented by 1.</p><p>Here&#8217;s a basic example of how to define and use an enum in Solidity:</p><pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>solidity</span><div class="flex items-center"><span class="" data-state="closed"><button class="flex gap-1 items-center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 3.5C10.8954 3.5 10 4.39543 10 5.5H14C14 4.39543 13.1046 3.5 12 3.5ZM8.53513 3.5C9.22675 2.3044 10.5194 1.5 12 1.5C13.4806 1.5 14.7733 2.3044 15.4649 3.5H17.25C18.9069 3.5 20.25 4.84315 20.25 6.5V18.5C20.25 20.1569 19.1569 21.5 17.25 21.5H6.75C5.09315 21.5 3.75 20.1569 3.75 18.5V6.5C3.75 4.84315 5.09315 3.5 6.75 3.5H8.53513ZM8 5.5H6.75C6.19772 5.5 5.75 5.94772 5.75 6.5V18.5C5.75 19.0523 6.19772 19.5 6.75 19.5H17.25C18.0523 19.5 18.25 19.0523 18.25 18.5V6.5C18.25 5.94772 17.8023 5.5 17.25 5.5H16C16 6.60457 15.1046 7.5 14 7.5H10C8.89543 7.5 8 6.60457 8 5.5Z" fill="currentColor"></path></svg>Copy code</button></span></div></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-solidity">pragma solidity ^0.8.0;
+
+contract EnumExample {
+    // Define an enum named State with three possible states
+    enum State { Inactive, Active, Suspended }
+
+    // Declare a State variable
+    State public currentState;
+
+    // Constructor to initialize the state
+    constructor() {
+        currentState = State.Inactive; // Set the initial state to Inactive
+    }
+
+    // Function to transition the state
+    function transitionToActive() public {
+        currentState = State.Active; // Change the state to Active
+    }
+}
+</code></div></div></pre><p>In this example:</p><ul><li>We define an enum named <code>State</code> with three possible states: <code>Inactive</code>, <code>Active</code>, and <code>Suspended</code>.</li><li>We declare a state variable <code>currentState</code> of type <code>State</code> within the contract.</li><li>In the constructor, we initialize <code>currentState</code> to <code>Inactive</code>.</li><li>We provide a function <code>transitionToActive()</code> that transitions the state from <code>Inactive</code> to <code>Active</code>.</li></ul><p>Enums make the code more readable and maintainable by providing a clear and self-documenting way to represent a finite set of options or states. They are commonly used in smart contracts to define statuses, types, or options with a limited number of possibilities.</p></div>
+
+
+
+<div class="markdown prose w-full break-words dark:prose-invert light"><p>In Solidity, besides <code>state</code> and <code>memory</code>, there&#8217;s also the <code>storage</code> keyword, which is another important data location specifier.</p><ol><li><p><strong>Storage</strong>:</p><ul><li><code>storage</code> refers to the persistent storage area of the contract. Data stored in <code>storage</code> persists between function calls and even after the contract is destroyed.</li><li>State variables declared at the contract level are by default stored in <code>storage</code>.</li><li>Data stored in <code>storage</code> is expensive in terms of gas cost, especially for write operations, because it involves updating the blockchain state.</li><li>Example:<pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>solidity</span><div class="flex items-center"><span class="" data-state="closed"><button class="flex gap-1 items-center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 3.5C10.8954 3.5 10 4.39543 10 5.5H14C14 4.39543 13.1046 3.5 12 3.5ZM8.53513 3.5C9.22675 2.3044 10.5194 1.5 12 1.5C13.4806 1.5 14.7733 2.3044 15.4649 3.5H17.25C18.9069 3.5 20.25 4.84315 20.25 6.5V18.5C20.25 20.1569 19.1569 21.5 17.25 21.5H6.75C5.09315 21.5 3.75 20.1569 3.75 18.5V6.5C3.75 4.84315 5.09315 3.5 6.75 3.5H8.53513ZM8 5.5H6.75C6.19772 5.5 5.75 5.94772 5.75 6.5V18.5C5.75 19.0523 6.19772 19.5 6.75 19.5H17.25C18.0523 19.5 18.25 19.0523 18.25 18.5V6.5C18.25 5.94772 17.8023 5.5 17.25 5.5H16C16 6.60457 15.1046 7.5 14 7.5H10C8.89543 7.5 8 6.60457 8 5.5Z" fill="currentColor"></path></svg>Copy code</button></span></div></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-solidity">contract MyContract {
+    uint public myNumber; // State variable stored in storage
+    
+    function setNumber(uint _number) public {
+        myNumber = _number; // Modify state variable stored in storage
+    }
+}
+</code></div></div></pre></li></ul></li><li><p><strong>Memory</strong>:</p><ul><li><code>memory</code> is a temporary place to store data within a function execution context.</li><li>Variables stored in <code>memory</code> are discarded once the function execution completes.</li><li><code>memory</code> is useful for storing function parameters, local variables, or dynamically allocated arrays.</li><li>Data stored in <code>memory</code> does not persist between function calls.</li><li>Example:<pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>solidity</span><div class="flex items-center"><span class="" data-state="closed"><button class="flex gap-1 items-center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 3.5C10.8954 3.5 10 4.39543 10 5.5H14C14 4.39543 13.1046 3.5 12 3.5ZM8.53513 3.5C9.22675 2.3044 10.5194 1.5 12 1.5C13.4806 1.5 14.7733 2.3044 15.4649 3.5H17.25C18.9069 3.5 20.25 4.84315 20.25 6.5V18.5C20.25 20.1569 19.1569 21.5 17.25 21.5H6.75C5.09315 21.5 3.75 20.1569 3.75 18.5V6.5C3.75 4.84315 5.09315 3.5 6.75 3.5H8.53513ZM8 5.5H6.75C6.19772 5.5 5.75 5.94772 5.75 6.5V18.5C5.75 19.0523 6.19772 19.5 6.75 19.5H17.25C18.0523 19.5 18.25 19.0523 18.25 18.5V6.5C18.25 5.94772 17.8023 5.5 17.25 5.5H16C16 6.60457 15.1046 7.5 14 7.5H10C8.89543 7.5 8 6.60457 8 5.5Z" fill="currentColor"></path></svg>Copy code</button></span></div></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-solidity">function concatenateStrings(string memory a, string memory b) public pure returns (string memory) {
+    string memory result = string(abi.encodePacked(a, b));
+    return result;
+}
+</code></div></div></pre></li></ul></li><li><p><strong>State</strong>:</p><ul><li><code>state</code> refers to the data stored in the contract&#8217;s state variables.</li><li>State variables are stored in the contract&#8217;s storage and their values are permanently stored on the blockchain.</li><li>State variables can be accessed and modified by all functions within the contract.</li><li>Example:<pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>solidity</span><div class="flex items-center"><span class="" data-state="closed"><button class="flex gap-1 items-center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 3.5C10.8954 3.5 10 4.39543 10 5.5H14C14 4.39543 13.1046 3.5 12 3.5ZM8.53513 3.5C9.22675 2.3044 10.5194 1.5 12 1.5C13.4806 1.5 14.7733 2.3044 15.4649 3.5H17.25C18.9069 3.5 20.25 4.84315 20.25 6.5V18.5C20.25 20.1569 19.1569 21.5 17.25 21.5H6.75C5.09315 21.5 3.75 20.1569 3.75 18.5V6.5C3.75 4.84315 5.09315 3.5 6.75 3.5H8.53513ZM8 5.5H6.75C6.19772 5.5 5.75 5.94772 5.75 6.5V18.5C5.75 19.0523 6.19772 19.5 6.75 19.5H17.25C18.0523 19.5 18.25 19.0523 18.25 18.5V6.5C18.25 5.94772 17.8023 5.5 17.25 5.5H16C16 6.60457 15.1046 7.5 14 7.5H10C8.89543 7.5 8 6.60457 8 5.5Z" fill="currentColor"></path></svg>Copy code</button></span></div></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-solidity">uint public myNumber; // State variable
+</code></div></div></pre></li></ul></li></ol><p>These data location specifiers (<code>storage</code>, <code>memory</code>, and <code>state</code>) are crucial for understanding how data is managed and accessed within Solidity contracts, and they play a significant role in designing efficient and secure smart contracts.</p></div>
+
+
+
+<div class="markdown prose w-full break-words dark:prose-invert light"><p>Sure! Let&#8217;s simplify it:</p><ol><li><p><strong>Storage</strong>: Imagine a big, magical box where the contract keeps its important stuff. This stuff stays there forever, even when the contract is not being used.</p></li><li><p><strong>Memory</strong>: Think of memory as a table where the contract puts things temporarily while it&#8217;s working. Once it&#8217;s done, it clears the table, and the things disappear.</p></li><li><p><strong>State</strong>: This is like the contract&#8217;s diary. It&#8217;s where the contract writes down important things it wants to remember. Whenever the contract needs to know something, it checks its diary (the state) to see what&#8217;s written there.</p></li></ol><p>So, in short:</p><ul><li>Storage is for important stuff that stays forever.</li><li>Memory is for temporary things the contract uses while working.</li><li>State is like the contract&#8217;s diary, where it writes down and remembers important stuff.</li></ul></div>
+
+
+
+<div class="markdown prose w-full break-words dark:prose-invert light"><p>Imagine you have a smart contract that&#8217;s like a vending machine. People can interact with it by putting in coins and getting snacks. Now, you, as the owner of the vending machine, might want to know every time someone buys a snack. That&#8217;s where events come in handy!</p><p>In Solidity, events are a way for smart contracts to communicate with the outside world. They are like notifications that the contract sends out to say, &#8220;Hey, something happened!&#8221; Events are useful for:</p><ol><li><p><strong>Informing External Systems</strong>: You can use events to inform external systems, like user interfaces or other contracts, about important things that happen within the contract. For example, you can emit an event when someone buys a product from your vending machine.</p></li><li><p><strong>Logging</strong>: Events also serve as a log of important actions or changes that occur within the contract. This log can be useful for auditing and tracking the history of interactions with the contract.</p></li><li><p><strong>Decoupling</strong>: Events help decouple the contract&#8217;s logic from the actions it triggers. By emitting events, the contract focuses on its main job, and other systems can react to those events as needed.</p></li></ol><p>Here&#8217;s a simple example of how events are used in Solidity:</p><pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>solidity</span><div class="flex items-center"><span class="" data-state="closed"><button class="flex gap-1 items-center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 3.5C10.8954 3.5 10 4.39543 10 5.5H14C14 4.39543 13.1046 3.5 12 3.5ZM8.53513 3.5C9.22675 2.3044 10.5194 1.5 12 1.5C13.4806 1.5 14.7733 2.3044 15.4649 3.5H17.25C18.9069 3.5 20.25 4.84315 20.25 6.5V18.5C20.25 20.1569 19.1569 21.5 17.25 21.5H6.75C5.09315 21.5 3.75 20.1569 3.75 18.5V6.5C3.75 4.84315 5.09315 3.5 6.75 3.5H8.53513ZM8 5.5H6.75C6.19772 5.5 5.75 5.94772 5.75 6.5V18.5C5.75 19.0523 6.19772 19.5 6.75 19.5H17.25C18.0523 19.5 18.25 19.0523 18.25 18.5V6.5C18.25 5.94772 17.8023 5.5 17.25 5.5H16C16 6.60457 15.1046 7.5 14 7.5H10C8.89543 7.5 8 6.60457 8 5.5Z" fill="currentColor"></path></svg>Copy code</button></span></div></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-solidity">pragma solidity ^0.8.0;
+
+contract VendingMachine {
+    event ItemPurchased(address buyer, uint itemId, uint price);
+
+    function buyItem(uint itemId, uint price) public payable {
+        // Process the purchase
+        // Emit an event to notify others about the purchase
+        emit ItemPurchased(msg.sender, itemId, price);
+    }
+}
+</code></div></div></pre><p>In this example, the <code>ItemPurchased</code> event is emitted every time someone buys an item from the vending machine. The event includes details such as the buyer&#8217;s address, the item ID, and the price. This allows external systems to listen for these events and take appropriate actions, like updating a user interface or recording the transaction in a database.</p></div>
+
+
+
+<div class="markdown prose w-full break-words dark:prose-invert light"><p>In Solidity, <code>emit</code> is a keyword used to trigger the emission of an event. When you define an event in your contract, you use the <code>emit</code> keyword to actually create an instance of that event and broadcast it to any external systems or contracts that are listening for it.</p><p>Here&#8217;s a breakdown of how it works:</p><ol><li><p><strong>Define the Event</strong>: You define an event in your contract using the <code>event</code> keyword, specifying its parameters and any relevant data.</p></li><li><p><strong>Emit the Event</strong>: When you want to trigger the event, typically inside a function, you use the <code>emit</code> keyword followed by the event name and any necessary data. This creates an instance of the event and broadcasts it.</p></li><li><p><strong>Listen for the Event</strong>: External systems or contracts can listen for these events and take action based on the information provided in the event parameters.</p></li></ol><p>Here&#8217;s a simple example:</p><pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>solidity</span><div class="flex items-center"><span class="" data-state="closed"><button class="flex gap-1 items-center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 3.5C10.8954 3.5 10 4.39543 10 5.5H14C14 4.39543 13.1046 3.5 12 3.5ZM8.53513 3.5C9.22675 2.3044 10.5194 1.5 12 1.5C13.4806 1.5 14.7733 2.3044 15.4649 3.5H17.25C18.9069 3.5 20.25 4.84315 20.25 6.5V18.5C20.25 20.1569 19.1569 21.5 17.25 21.5H6.75C5.09315 21.5 3.75 20.1569 3.75 18.5V6.5C3.75 4.84315 5.09315 3.5 6.75 3.5H8.53513ZM8 5.5H6.75C6.19772 5.5 5.75 5.94772 5.75 6.5V18.5C5.75 19.0523 6.19772 19.5 6.75 19.5H17.25C18.0523 19.5 18.25 19.0523 18.25 18.5V6.5C18.25 5.94772 17.8023 5.5 17.25 5.5H16C16 6.60457 15.1046 7.5 14 7.5H10C8.89543 7.5 8 6.60457 8 5.5Z" fill="currentColor"></path></svg>Copy code</button></span></div></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-solidity">pragma solidity ^0.8.0;
+
+contract MyContract {
+    event MyEvent(address indexed sender, uint amount);
+
+    function myFunction(uint _amount) public {
+        // Emitting the event
+        emit MyEvent(msg.sender, _amount);
+    }
+}
+</code></div></div></pre><p>In this example, <code>MyEvent</code> is the name of the event, and it has two parameters: <code>sender</code> and <code>amount</code>. Inside the <code>myFunction</code> function, we use the <code>emit</code> keyword to trigger the event and pass in the <code>msg.sender</code> and the <code>_amount</code> as parameters. This event will be emitted whenever <code>myFunction</code> is called, allowing external systems to listen for it and react accordingly.</p></div>
+
+
+
+<div class="markdown prose w-full break-words dark:prose-invert light"><p>In Solidity, when you define an event, you can mark certain parameters as &#8220;indexed&#8221;. Indexing parameters in an event has implications for how the event data is stored in the Ethereum blockchain and how it can be efficiently searched and queried. Here&#8217;s what it means:</p><ol><li><strong>Indexed Parameters</strong>:<ul><li>By marking a parameter as indexed in an event definition, Solidity will create an index for that parameter&#8217;s value.</li><li>Indexed parameters are useful for filtering and searching events based on specific criteria, especially when querying event logs from Ethereum nodes.</li><li>You can index up to three parameters per event.</li><li>Indexed parameters are stored in a special data structure called event logs, which allows efficient retrieval based on the indexed values.</li></ul></li><li><strong>Usage</strong>:<ul><li>Indexed parameters are often used for parameters that you expect to filter or search for frequently when analyzing event logs. Examples include addresses, user IDs, or other unique identifiers.</li><li>Indexing parameters can improve the performance of event log queries, as it allows for more efficient filtering and searching.</li></ul></li></ol><p>Here&#8217;s an example of how to use indexed parameters in an event:</p><pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>solidity</span><div class="flex items-center"><span class="" data-state="closed"><button class="flex gap-1 items-center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 3.5C10.8954 3.5 10 4.39543 10 5.5H14C14 4.39543 13.1046 3.5 12 3.5ZM8.53513 3.5C9.22675 2.3044 10.5194 1.5 12 1.5C13.4806 1.5 14.7733 2.3044 15.4649 3.5H17.25C18.9069 3.5 20.25 4.84315 20.25 6.5V18.5C20.25 20.1569 19.1569 21.5 17.25 21.5H6.75C5.09315 21.5 3.75 20.1569 3.75 18.5V6.5C3.75 4.84315 5.09315 3.5 6.75 3.5H8.53513ZM8 5.5H6.75C6.19772 5.5 5.75 5.94772 5.75 6.5V18.5C5.75 19.0523 6.19772 19.5 6.75 19.5H17.25C18.0523 19.5 18.25 19.0523 18.25 18.5V6.5C18.25 5.94772 17.8023 5.5 17.25 5.5H16C16 6.60457 15.1046 7.5 14 7.5H10C8.89543 7.5 8 6.60457 8 5.5Z" fill="currentColor"></path></svg>Copy code</button></span></div></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-solidity">pragma solidity ^0.8.0;
+
+contract MyContract {
+    event MyEvent(address indexed sender, uint indexed amount);
+
+    function myFunction(uint _amount) public {
+        // Emitting the event with indexed parameters
+        emit MyEvent(msg.sender, _amount);
+    }
+}
+</code></div></div></pre><p>In this example, both <code>sender</code> and <code>amount</code> parameters are marked as indexed. This means that when <code>MyEvent</code> is emitted, the <code>sender</code> and <code>amount</code> values will be indexed, allowing for efficient searching and filtering based on these values when querying event logs.</p></div>
+
+
+
+<div class="markdown prose w-full break-words dark:prose-invert light"><p>In Solidity, the <code>fallback</code> and <code>receive</code> functions have different purposes and behaviors:</p><ol><li><p><strong>Fallback Function (<code>fallback()</code>):</strong></p><ul><li>The <code>fallback</code> function is executed when a contract receives Ether but doesn&#8217;t match any other function signature or when a function call is made without specifying a function.</li><li>Prior to Solidity version 0.6.0, the <code>fallback</code> function was used as a catch-all for these scenarios. Since Solidity 0.6.0, contracts can have either a <code>fallback</code> function or a <code>receive</code> function (or both). If neither is defined, the contract won&#8217;t accept plain Ether transfers.</li><li>In your example, <code>fallback()</code> is marked as <code>external payable</code>, indicating it can receive Ether and can be called externally.</li></ul></li><li><p><strong>Receive Ether Function (<code>receive()</code>):</strong></p><ul><li>The <code>receive</code> function is a special function introduced in Solidity 0.6.0 specifically for handling Ether sent directly to the contract without specifying a function call.</li><li>When a contract receives Ether and it has a <code>receive</code> function, that function will be invoked automatically.</li><li>Only one <code>receive</code> function is allowed per contract, and it cannot accept any arguments or return anything.</li><li>In your example, <code>receive()</code> is marked as <code>external payable</code>, indicating it can receive Ether and can be called externally.</li></ul></li></ol><p>So, the combination of both functions in your contract means that:</p><ul><li>If Ether is sent to the contract without specifying a function call or doesn&#8217;t match any other function signature, the <code>fallback</code> function will be invoked.</li><li>Additionally, if Ether is sent directly to the contract without specifying a function call, the <code>receive</code> function will also be invoked (if defined).</li><li>Both functions are marked as <code>payable</code>, meaning they can receive Ether.</li></ul></div>
+
+
+
+<div class="markdown prose w-full break-words dark:prose-invert light"><p>In Solidity, both <code>send</code> and <code>transfer</code> are functions used for sending Ether from one address to another, but they differ in how they handle errors and gas stipend.</p><ol><li><p><strong><code>send</code>:</strong></p><ul><li><code>send</code> is a low-level method used for sending Ether to another address.</li><li>It returns a boolean value (<code>true</code> if the transfer was successful, <code>false</code> otherwise).</li><li>It forwards a fixed amount of gas (2300 gas) and does not throw exceptions in case of failure. Instead, it returns <code>false</code>.</li><li>It&#8217;s recommended to use <code>send</code> when interacting with external contracts to prevent potential re-entrancy attacks and to ensure that the gas stipend is respected.</li></ul></li><li><p><strong><code>transfer</code>:</strong></p><ul><li><code>transfer</code> is a wrapper around <code>send</code> and is available on all <code>address</code> types.</li><li>It&#8217;s used for sending Ether to another address.</li><li>It&#8217;s safer to use <code>transfer</code> as it automatically throws an exception and reverts the transaction in case of failure.</li><li>It forwards 2300 gas to the recipient, which is typically enough for simple transfers or interactions with trusted contracts.</li><li><code>transfer</code> is considered safer than <code>send</code> because it automatically handles failure by reverting the transaction, preventing any further execution and potential vulnerabilities.</li></ul></li></ol><p>In summary, <code>transfer</code> is generally preferred for simple Ether transfers between addresses or when interacting with known and trusted contracts, as it provides better safety guarantees by reverting the transaction on failure. However, for more complex interactions with external contracts, where re-entrancy attacks might be a concern, using <code>send</code> with proper precautions might be necessary to ensure the security of the contract.</p></div>
+
+
+
+<div class="markdown prose w-full break-words dark:prose-invert light"><p>A reentrancy attack is a type of vulnerability in smart contracts that allows an attacker to repeatedly call a function within a contract before the previous invocation has been completed. This can lead to unexpected behavior and potentially enable the attacker to manipulate the state of the contract in unintended ways, including stealing Ether or tokens.</p><p>Here&#8217;s how a reentrancy attack typically works:</p><ol><li><p><strong>Vulnerable Contract:</strong> The target contract contains a function that performs some actions (e.g., transferring Ether) and can be called externally.</p></li><li><p><strong>Attack Contract:</strong> The attacker deploys a separate contract with a function that calls the vulnerable function in the target contract and then performs some additional actions.</p></li><li><p><strong>Reentrant Call:</strong> The attacker initiates a call to the vulnerable function in the target contract from their attack contract.</p></li><li><p><strong>Suspension of Execution:</strong> Before the execution of the vulnerable function completes, the control is transferred back to the attacker&#8217;s contract.</p></li><li><p><strong>Reentry:</strong> The attacker&#8217;s contract then re-enters the vulnerable function in the target contract, potentially causing unexpected behavior due to the incomplete state of execution.</p></li><li><p><strong>Manipulation of State:</strong> The attacker can use this re-entrancy to manipulate the state of the contract in unintended ways, such as repeatedly withdrawing funds or altering balances.</p></li></ol><p>Reentrancy attacks are particularly dangerous because they can be difficult to detect and can lead to significant financial losses if not properly mitigated. Solidity&#8217;s <code>send</code> and <code>transfer</code> functions, along with best practices such as using the &#8220;Checks-Effects-Interactions&#8221; pattern and ensuring proper state management, can help prevent reentrancy vulnerabilities in smart contracts. Additionally, careful auditing and testing are essential to identify and address any potential vulnerabilities before deploying a contract to the blockchain.</p></div>
+
+
+
+<div class="markdown prose w-full break-words dark:prose-invert light"><p>In Solidity, there isn&#8217;t a specific concept of a &#8220;library type&#8221; as there is in some other programming languages. However, Solidity does support the creation and usage of libraries, which are special contracts deployed on the blockchain that contain reusable code.</p><p>Libraries are essentially collections of functions that can be called by other contracts. They are deployed once on the blockchain and can be reused by multiple contracts. This promotes code reuse and helps to keep contracts modular and maintainable.</p><p>When you create a library in Solidity, you declare it using the <code>library</code> keyword. Here&#8217;s a basic example of a simple library in Solidity:</p><pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>solidity</span><div class="flex items-center"><span class="" data-state="closed"><button class="flex gap-1 items-center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 3.5C10.8954 3.5 10 4.39543 10 5.5H14C14 4.39543 13.1046 3.5 12 3.5ZM8.53513 3.5C9.22675 2.3044 10.5194 1.5 12 1.5C13.4806 1.5 14.7733 2.3044 15.4649 3.5H17.25C18.9069 3.5 20.25 4.84315 20.25 6.5V18.5C20.25 20.1569 19.1569 21.5 17.25 21.5H6.75C5.09315 21.5 3.75 20.1569 3.75 18.5V6.5C3.75 4.84315 5.09315 3.5 6.75 3.5H8.53513ZM8 5.5H6.75C6.19772 5.5 5.75 5.94772 5.75 6.5V18.5C5.75 19.0523 6.19772 19.5 6.75 19.5H17.25C18.0523 19.5 18.25 19.0523 18.25 18.5V6.5C18.25 5.94772 17.8023 5.5 17.25 5.5H16C16 6.60457 15.1046 7.5 14 7.5H10C8.89543 7.5 8 6.60457 8 5.5Z" fill="currentColor"></path></svg>Copy code</button></span></div></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-solidity">pragma solidity ^0.8.0;
+
+library MathLibrary {
+    function add(uint256 a, uint256 b) internal pure returns (uint256) {
+        return a + b;
+    }
+
+    function multiply(uint256 a, uint256 b) internal pure returns (uint256) {
+        return a * b;
+    }
+}
+</code></div></div></pre><p>In this example, <code>MathLibrary</code> is a library that contains two functions, <code>add</code> and <code>multiply</code>, which perform basic arithmetic operations. These functions are declared as <code>internal</code>, meaning they can only be called from within the same contract or from contracts that inherit from it.</p><p>To use this library in another contract, you would import it and then call its functions. For example:</p><pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>solidity</span><div class="flex items-center"><span class="" data-state="closed"><button class="flex gap-1 items-center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 3.5C10.8954 3.5 10 4.39543 10 5.5H14C14 4.39543 13.1046 3.5 12 3.5ZM8.53513 3.5C9.22675 2.3044 10.5194 1.5 12 1.5C13.4806 1.5 14.7733 2.3044 15.4649 3.5H17.25C18.9069 3.5 20.25 4.84315 20.25 6.5V18.5C20.25 20.1569 19.1569 21.5 17.25 21.5H6.75C5.09315 21.5 3.75 20.1569 3.75 18.5V6.5C3.75 4.84315 5.09315 3.5 6.75 3.5H8.53513ZM8 5.5H6.75C6.19772 5.5 5.75 5.94772 5.75 6.5V18.5C5.75 19.0523 6.19772 19.5 6.75 19.5H17.25C18.0523 19.5 18.25 19.0523 18.25 18.5V6.5C18.25 5.94772 17.8023 5.5 17.25 5.5H16C16 6.60457 15.1046 7.5 14 7.5H10C8.89543 7.5 8 6.60457 8 5.5Z" fill="currentColor"></path></svg>Copy code</button></span></div></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-solidity">pragma solidity ^0.8.0;
+
+import "./MathLibrary.sol";
+
+contract MyContract {
+    function doMath(uint256 a, uint256 b) external pure returns (uint256) {
+        return MathLibrary.add(a, b);
+    }
+}
+</code></div></div></pre><p>In this contract, the <code>doMath</code> function calls the <code>add</code> function from the <code>MathLibrary</code> library to perform addition.</p><p>So while Solidity doesn&#8217;t have a specific &#8220;library type,&#8221; libraries are a powerful feature of the language that enable code reuse and modular design.</p></div>
+
+
+
+<div class="markdown prose w-full break-words dark:prose-invert light"><p>In the context of Solidity, &#8220;contract artifacts&#8221; typically refer to the output generated by the Solidity compiler when you compile a smart contract. These artifacts include various pieces of information about the contract, such as its bytecode, Application Binary Interface (ABI), and other metadata.</p><ol><li><p><strong>Bytecode</strong>: The bytecode is the compiled form of the smart contract code. It&#8217;s the machine-readable representation of the contract that is deployed to the Ethereum blockchain.</p></li><li><p><strong>ABI (Application Binary Interface)</strong>: The ABI is a JSON representation of the contract&#8217;s interface, including its functions, their signatures, and the data types of their parameters and return values. The ABI is used by external applications to interact with the contract, such as sending transactions or calling its functions.</p></li><li><p><strong>Contract Metadata</strong>: Solidity compiler can also generate metadata files containing additional information about the contract, such as its source code, compiler version, and other settings used during compilation. This metadata can be useful for verifying the authenticity of the contract source code and for debugging purposes.</p></li></ol><p>When you compile a Solidity contract using tools like Truffle, Hardhat, or Remix IDE, these artifacts are typically generated and stored in a JSON file with a <code>.json</code> extension. This file is commonly referred to as the &#8220;contract artifact file&#8221; and contains all the necessary information for deploying and interacting with the contract on the Ethereum blockchain.</p><p>Contract artifacts are crucial for deploying and interacting with contracts, as they provide the necessary information about the contract&#8217;s interface and implementation. They are also used in development workflows, testing, and deployment processes.</p></div>
+
+
+
+<div class="markdown prose w-full break-words dark:prose-invert light"><p>OpenZeppelin is one of the most widely used libraries and frameworks for developing secure and audited smart contracts on the Ethereum blockchain. It provides a collection of reusable and battle-tested smart contracts that implement industry-standard functionalities, such as token standards (e.g., ERC20, ERC721), access control, and more.</p><p>Here are some key aspects of OpenZeppelin:</p><ol><li><p><strong>Security</strong>: OpenZeppelin places a strong emphasis on security. The smart contracts provided by OpenZeppelin have undergone extensive auditing by security experts to identify and mitigate potential vulnerabilities. By using OpenZeppelin&#8217;s contracts, developers can benefit from these security measures and reduce the risk of introducing security flaws in their own contracts.</p></li><li><p><strong>Standard Implementations</strong>: OpenZeppelin offers implementations of widely accepted standards in the Ethereum ecosystem, such as ERC20 (for fungible tokens) and ERC721 (for non-fungible tokens). These implementations adhere to the specifications outlined in the respective Ethereum Improvement Proposals (EIPs), ensuring compatibility and interoperability with other contracts and applications.</p></li><li><p><strong>Modularity</strong>: OpenZeppelin&#8217;s contracts are designed to be modular and composable, allowing developers to mix and match different components to build complex smart contract systems. This modularity promotes code reuse, simplifies development, and enables developers to focus on building application-specific logic rather than reinventing common functionalities.</p></li><li><p><strong>Community</strong>: OpenZeppelin has a vibrant and active community of developers, auditors, and contributors who collaborate to improve the library, share best practices, and provide support to fellow developers. The community-driven nature of OpenZeppelin fosters knowledge sharing and continuous improvement of smart contract development practices.</p></li><li><p><strong>Governance</strong>: OpenZeppelin&#8217;s development and maintenance are governed by a transparent and open process. Changes to the library are proposed, discussed, and implemented openly, with input from the community. This ensures that the library evolves in a way that meets the needs of its users and maintains its reputation for security and reliability.</p></li></ol><p>Overall, OpenZeppelin is an essential tool for Ethereum developers who prioritize security, reliability, and standardization in their smart contract development process. It provides a solid foundation of battle-tested contracts and best practices that can accelerate the development of secure and audited decentralized applications.</p></div>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Useful links for AI DnD</title>
+		<link>/2024/04/21/useful-links-for-ai-dnd/</link>
+		
+		<dc:creator><![CDATA[Vimpil]]></dc:creator>
+		<pubDate>Sun, 21 Apr 2024 19:00:52 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=86</guid>
+
+					<description><![CDATA[https://play.fables.gg/ &#8211; DND AI https://lite.koboldai.net/# &#8211; KoboldAI https://ora.ai/ &#8211; DND chat bot theresanaiforthat.com &#8211; AI finder]]></description>
+										<content:encoded><![CDATA[
+<p><a href="https://play.fables.gg/">https://play.fables.gg/</a> &#8211; DND AI</p>
+
+
+
+<p><a href="https://lite.koboldai.net/#">https://lite.koboldai.net/#</a> &#8211; KoboldAI</p>
+
+
+
+<p><a href="https://ora.ai/">https://ora.ai/</a> &#8211; DND chat bot</p>
+
+
+
+<p>theresanaiforthat.com &#8211; AI finder</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Gamifying the math skills</title>
+		<link>/2024/04/21/gamifying-the-math-skills/</link>
+		
+		<dc:creator><![CDATA[Vimpil]]></dc:creator>
+		<pubDate>Sun, 21 Apr 2024 15:59:27 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=81</guid>
+
+					<description><![CDATA[In the D&#038;D Star Wars system, incorporating levels of trigonometry knowledge can be implemented through the mechanics of skills or proficiencies. Here are several ways you can do this: Character Skills: You can create a new skill or proficiency called &#8220;Trigonometry&#8221; or &#8220;Mathematical Aptitude.&#8221; Characters can choose this skill at certain levels or when gaining [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>In the D&#038;D Star Wars system, incorporating levels of trigonometry knowledge can be implemented through the mechanics of skills or proficiencies. Here are several ways you can do this:</p>
+
+<ol>
+  <li><strong>Character Skills:</strong> You can create a new skill or proficiency called &#8220;Trigonometry&#8221; or &#8220;Mathematical Aptitude.&#8221; Characters can choose this skill at certain levels or when gaining certain classes or subclasses. They can then use this skill to solve mathematical problems, including trigonometry, when necessary.</li>
+  
+  <li><strong>Educational Subjects:</strong> If your campaign includes educational institutions, you could introduce levels of education, including levels in mathematics where characters can study trigonometry.</li>
+  
+  <li><strong>Classes or Races:</strong> You can create classes or races that have some inherent knowledge of mathematics, including trigonometry. For example, a scientist or engineer class might include basic knowledge of trigonometry.</li>
+  
+  <li><strong>Individual Advantages:</strong> Characters could gain individual advantages or bonuses related to mathematical knowledge, such as a bonus to intelligence checks when solving mathematical problems.</li>
+  
+  <li><strong>Artifacts and Items:</strong> In the world of D&#038;D Star Wars, there may be artifacts or items that grant characters knowledge of mathematics, including trigonometry, as part of their magical or technological properties.</li>
+</ol>
+
+<p>Levels of trigonometry knowledge can vary depending on your preferences and the specifics of your campaign.</p>
+
+
+
+
+<h1>Force Geometry: Trigonometry in the Star Wars Universe</h1>
+    <div class="skill-description">
+        <p>Mastering the Force is not just about wielding lightsabers or performing mind tricks; it also involves understanding the fundamental principles of the universe. Force-sensitive beings who delve into the intricacies of trigonometry gain a unique advantage, allowing them to perceive the world through a lens of mathematical precision. Whether calculating the trajectory of a blaster bolt or analyzing the optimal angle for deflecting enemy fire, proficiency in Force Geometry enables Jedi and Sith alike to harness mathematical principles to enhance their combat prowess and strategic planning.</p>
+        
+        <div class="key-abilities">
+            <h2>Key Abilities:</h2>
+            <ul>
+                <li><strong>Trajectory Prediction:</strong> Jedi and Sith can utilize trigonometric calculations to anticipate the path of projectiles such as blaster bolts or thrown objects. This skill aids in evasive maneuvers or deflecting incoming attacks with precision.</li>
+                <li><strong>Angle Optimization:</strong> Understanding angles is crucial in combat situations. Force-sensitive individuals can employ trigonometry to determine the most effective angles for deflecting attacks, maximizing offensive strikes, or navigating challenging terrain.</li>
+                <li><strong>Spatial Awareness:</strong> By applying trigonometric principles, Force users develop heightened spatial awareness, enabling them to assess distances, heights, and positions with greater accuracy. This skill proves invaluable in navigation, reconnaissance, and tactical positioning during battles.</li>
+                <li><strong>Precision Strikes:</strong> Trigonometry enhances the precision of lightsaber combat by aiding in the calculation of strike angles and attack trajectories. Force-sensitive beings proficient in this skill can execute devastating blows with remarkable accuracy.</li>
+                <li><strong>Environmental Adaptation:</strong> Jedi and Sith can adapt to various environmental conditions by applying trigonometric concepts to assess terrain features, such as slopes, inclines, and obstacles. This skill facilitates efficient movement and strategic positioning in diverse landscapes.</li>
+                <li><strong>Force Amplification:</strong> Mastery of Force Geometry allows individuals to amplify their Force abilities by harmonizing mathematical principles with the Force. This synergy enables them to achieve feats of heightened perception, agility, and combat effectiveness beyond conventional limits.</li>
+                <li><strong>Advanced Techniques:</strong> As practitioners refine their skills, they unlock advanced techniques such as calculating the resonance frequencies of materials or predicting gravitational anomalies. These abilities offer strategic advantages in diverse scenarios, from infiltration missions to space combat engagements.</li>
+            </ul>
+        </div>
+    </div>
+
+
+
+<h1>Trigonometry Mastery Levels</h1>
+    <div class="level-description">
+        <h2>1. Novice Apprentice:</h2>
+        <ul>
+            <li>Basic ability to predict trajectories of simple projectiles, such as blaster bolts, with moderate accuracy.</li>
+            <li>Understanding of basic trigonometric functions (sine, cosine, tangent).</li>
+            <li>Fundamentals of angle optimization for defense and attack.</li>
+        </ul>
+        <h2>2. Journeyman Initiate:</h2>
+        <ul>
+            <li>Improved accuracy in predicting trajectories and deflecting attacks.</li>
+            <li>Ability to calculate more complex angles and trajectories.</li>
+            <li>Deeper understanding of trigonometric functions and their application in combat situations.</li>
+        </ul>
+        <h2>3. Adept Sentinel:</h2>
+        <ul>
+            <li>Great precision in predicting trajectories and accuracy in deflecting attacks.</li>
+            <li>Adaptability to various environmental conditions through trigonometry.</li>
+            <li>Advanced understanding of spatial geometry and its application in tactical and strategic situations.</li>
+        </ul>
+        <h2>4. Master Sage:</h2>
+        <ul>
+            <li>Mastery in calculating complex trajectories and using trigonometry to analyze energy flows.</li>
+            <li>Ability to predict and adapt to gravitational anomalies and other physical phenomena.</li>
+            <li>Unique abilities in analyzing and influencing matter structures through trigonometry.</li>
+        </ul>
+    </div>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Linguistic Proficiency.</title>
+		<link>/2024/04/20/linguistic-proficiency/</link>
+		
+		<dc:creator><![CDATA[Vimpil]]></dc:creator>
+		<pubDate>Sat, 20 Apr 2024 15:54:35 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=60</guid>
+
+					<description><![CDATA[Level Progression for Linguistic Proficiency Level 1-10 (A1-A2): Starting level: Basic knowledge of main languages; approximately 300 words in each. Level 2: Expanded vocabulary; approximately 500 words in each language. Level 3: Basic conversational proficiency; approximately 700 words in each language. Level 4: Improved conversational skills; approximately 1000 words in each language. Level 5: Basic [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<h2>Level Progression for Linguistic Proficiency</h2>
+
+  <h3>Level 1-10 (A1-A2):</h3>
+  <ul>
+    <li>Starting level: Basic knowledge of main languages; approximately 300 words in each.</li>
+    <li>Level 2: Expanded vocabulary; approximately 500 words in each language.</li>
+    <li>Level 3: Basic conversational proficiency; approximately 700 words in each language.</li>
+    <li>Level 4: Improved conversational skills; approximately 1000 words in each language.</li>
+    <li>Level 5: Basic understanding of written texts; approximately 1500 words in each language.</li>
+    <li>Levels 6-10: Gradual increase in vocabulary and proficiency within A1-A2 range.</li>
+  </ul>
+
+  <h3>Level 11-50 (B1-B2):</h3>
+  <ul>
+    <li>Level 11: Intermediate proficiency; approximately 2000 words in each language.</li>
+    <li>Levels 12-30: Continued improvement in vocabulary and conversational skills within B1-B2 range.</li>
+    <li>Levels 31-50: Further expansion of vocabulary and increased proficiency in understanding and speaking the languages.</li>
+  </ul>
+
+  <h3>Level 51-100 (C1-C2):</h3>
+  <ul>
+    <li>Level 51: Advanced proficiency; approximately 4000 words in each language.</li>
+    <li>Levels 52-80: Continued refinement of language skills, including advanced vocabulary and comprehension abilities.</li>
+    <li>Levels 81-100: Mastery of the languages, with extensive vocabulary and fluency in both written and spoken communication.</li>
+  </ul>
+
+
+
+<p>To add a characteristic related to the number of characters or words, you can make changes to the character sheet. Let&#8217;s call this new characteristic &#8220;Linguistic Proficiency.&#8221;</p>
+
+<ul>
+  <li><strong>Characteristic: Linguistic Proficiency</strong></li>
+</ul>
+
+<p><strong>Description:</strong> This characteristic measures the character&#8217;s level of knowledge in a specific language or set of languages, as well as their ability for quick and accurate communication in relevant situations.</p>
+
+<p><strong>Influence on other characteristics:</strong></p>
+<ul>
+  <li><strong>Communication:</strong> Proficiency level in a language may affect the character&#8217;s success in persuasion, deception, and diplomacy when interacting with other characters.</li>
+  <li><strong>Intellect:</strong> Language proficiency may be associated with the character&#8217;s overall level of intellect and their ability to learn and absorb new information.</li>
+  <li><strong>Adaptability:</strong> The ability to quickly learn new languages may indicate the character&#8217;s high level of adaptability to different cultures and environments.</li>
+</ul>
+
+<p>Now, to determine how many words a character can know, we can use the following criteria:</p>
+
+<ul>
+  <li><strong>Starting level (Level 1):</strong> The character begins with basic knowledge of the main languages of the setting and may know approximately 200 words in each of these languages.</li>
+  <li><strong>Progress and levels:</strong> As the character gains experience and levels up, they can improve their linguistic skills and increase their vocabulary.</li>
+</ul>
+
+<p>To use this characteristic, the character can employ it in situations where language knowledge is required, such as translation, diplomatic negotiations, or deciphering unfamiliar text. It can also help them communicate with different cultures and expand their network of contacts.</p>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linguistic Proficiency in D&#038;D Skills</title>
+</head>
+<body>
+  <h2>Linguistic Proficiency in D&#038;D Skills</h2>
+
+  <h3>Communication:</h3>
+  <ul>
+    <li><strong>Skill:</strong> Persuasion, Deception, and Insight</li>
+    <li><strong>Effect:</strong> The character&#8217;s level of linguistic proficiency directly influences their ability to effectively persuade, deceive, and discern the intentions of others. Higher levels of linguistic proficiency grant bonuses to Persuasion and Deception checks, allowing the character to convey ideas convincingly or manipulate others more effectively. Additionally, a deeper understanding of language and culture enhances Insight checks, enabling the character to better interpret social cues and detect deception.</li>
+  </ul>
+
+  <h3>Intellect:</h3>
+  <ul>
+    <li><strong>Skill:</strong> Intelligence-based skills such as Arcana, History, and Investigation</li>
+    <li><strong>Effect:</strong> Linguistic proficiency reflects the character&#8217;s intellectual acumen and capacity for learning. Higher levels of proficiency provide advantages on Intelligence-based skill checks related to language, history, and investigation. For example, a character with advanced linguistic skills might gain insights from ancient texts (History), decipher cryptic messages (Investigation), or identify magical incantations (Arcana) more easily due to their enhanced understanding of language structure and cultural context.</li>
+  </ul>
+
+  <h3>Adaptability:</h3>
+  <ul>
+    <li><strong>Skill:</strong> Wisdom-based skills such as Survival, Perception, and Insight</li>
+    <li><strong>Effect:</strong> Linguistic proficiency signifies the character&#8217;s adaptability to diverse linguistic and cultural environments. As the character advances in linguistic proficiency, they become more adept at navigating unfamiliar territories, interacting with different cultures, and understanding the nuances of communication. This can provide advantages on Wisdom-based skill checks such as Survival (for traversing unfamiliar regions), Perception (for detecting subtle cultural cues), and Insight (for empathizing with individuals from diverse backgrounds).</li>
+  </ul>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linguistic Proficiency Level Progression</title>
+</head>
+<body>
+  <h2>Level Progression for Linguistic Proficiency</h2>
+
+  <h3>Level 1-100:</h3>
+  <ul>
+    <li>Level 1: Approximately 80 words in each language</li>
+    <li>Level 2: Approximately 160 words in each language</li>
+    <li>Level 3: Approximately 240 words in each language</li>
+    <li>Level 4: Approximately 320 words in each language</li>
+    <li>Level 5: Approximately 400 words in each language</li>
+    <li>Level 6: Approximately 480 words in each language</li>
+    <li>Level 7: Approximately 560 words in each language</li>
+    <li>Level 8: Approximately 640 words in each language</li>
+    <li>Level 9: Approximately 720 words in each language</li>
+    <li>Level 10: Approximately 800 words in each language</li>
+    <li>Level 11: Approximately 880 words in each language</li>
+    <li>Level 12: Approximately 960 words in each language</li>
+    <li>Level 13: Approximately 1040 words in each language</li>
+    <li>Level 14: Approximately 1120 words in each language</li>
+    <li>Level 15: Approximately 1200 words in each language</li>
+    <li>Level 16: Approximately 1280 words in each language</li>
+    <li>Level 17: Approximately 1360 words in each language</li>
+    <li>Level 18: Approximately 1440 words in each language</li>
+    <li>Level 19: Approximately 1520 words in each language</li>
+    <li>Level 20: Approximately 1600 words in each language</li>
+    <li>Level 21: Approximately 1680 words in each language</li>
+    <li>Level 22: Approximately 1760 words in each language</li>
+    <li>Level 23: Approximately 1840 words in each language</li>
+    <li>Level 24: Approximately 1920 words in each language</li>
+    <li>Level 25: Approximately 2000 words in each language</li>
+    <li>Level 26: Approximately 2080 words in each language</li>
+    <li>Level 27: Approximately 2160 words in each language</li>
+    <li>Level 28: Approximately 2240 words in each language</li>
+    <li>Level 29: Approximately 2320 words in each language</li>
+    <li>Level 30: Approximately 2400 words in each language</li>
+    <li>Level 31: Approximately 2480 words in each language</li>
+    <li>Level 32: Approximately 2560 words in each language</li>
+    <li>Level 33: Approximately 2640 words in each language</li>
+    <li>Level 34: Approximately 2720 words in each language</li>
+    <li>Level 35: Approximately 2800 words in each language</li>
+    <li>Level 36: Approximately 2880 words in each language</li>
+    <li>Level 37: Approximately 2960 words in each language</li>
+    <li>Level 38: Approximately 3040 words in each language</li>
+    <li>Level 39: Approximately 3120 words in each language</li>
+    <li>Level 40: Approximately 3200 words in each language</li>
+    <li>Level 41: Approximately 3280 words in each language</li>
+    <li>Level 42: Approximately 3360 words in each language</li>
+    <li>Level 43: Approximately 3440 words in each language</li>
+    <li>Level 44: Approximately 3520 words in each language</li>
+    <li>Level 45: Approximately 3600 words in each language</li>
+    <li>Level 46: Approximately 3680 words in each language</li>
+    <li>Level 47: Approximately 3760 words in each language</li>
+    <li>Level 48: Approximately 3840 words in each language</li>
+    <li>Level 49: Approximately 3920 words in each language</li>
+    <li>Level 50: Approximately 4000 words in each language</li>
+    <li>Level 51: Approximately 4080 words in each language</li>
+    <li>Level 52: Approximately 4160 words in each language</li>
+    <li>Level 53: Approximately 4240 words in each language</li>
+    <li>Level 54: Approximately 4320 words in each language</li>
+    <li>Level 55: Approximately 4400 words in each language</li>
+    <li>Level 56: Approximately 4480 words in each language</li>
+    <li>Level 57: Approximately 4560 words in each language</li>
+    <li>Level 58: Approximately 4640 words in each language</li>
+    <li>Level 59: Approximately 4720 words in each language</li>
+    <li>Level 60: Approximately 4800 words in each language</li>
+    <li>Level 61: Approximately 4880 words in each language</li>
+    <li>Level 62: Approximately 4960 words in each language</li>
+    <li>Level 63: Approximately 5040 words in each language</li>
+    <li>Level 64: Approximately 5120 words in each language</li>
+    <li>Level 65: Approximately 5200 words in each language</li>
+    <li>Level 66: Approximately 5280 words in each language</li>
+    <li>Level 67: Approximately 5360 words in each language</li>
+    <li>Level 68: Approximately 5440 words in each language</li>
+    <li>Level 69: Approximately 5520 words in each language</li>
+    <li>Level 70: Approximately 5600 words in each language</li>
+    <li>Level 71: Approximately 5680 words in each language</li>
+    <li>Level 72: Approximately 5760 words in each language</li>
+    <li>Level 73: Approximately 5840 words in each language</li>
+    <li>Level 74: Approximately 5920 words in each language</li>
+    <li>Level 75: Approximately 6000 words in each language</li>
+    <li>Level 76: Approximately 6080 words in each language</li>
+    <li>Level 77: Approximately 6160 words in each language</li>
+    <li>Level 78: Approximately 6240 words in each language</li>
+    <li>Level 79: Approximately 6320 words in each language</li>
+    <li>Level 80: Approximately 6400 words in each language</li>
+    <li>Level 81: Approximately 6480 words in each language</li>
+    <li>Level 82: Approximately 6560 words in each language</li>
+    <li>Level 83: Approximately 6640 words in each language</li>
+    <li>Level 84: Approximately 6720 words in each language</li>
+    <li>Level 85: Approximately 6800 words in each language</li>
+    <li>Level 86: Approximately 6880 words in each language</li>
+    <li>Level 87: Approximately 6960 words in each language</li>
+    <li>Level 88: Approximately 7040 words in each language</li>
+    <li>Level 89: Approximately 7120 words in each language</li>
+    <li>Level 90: Approximately 7200 words in each language</li>
+    <li>Level 91: Approximately 7280 words in each language</li>
+    <li>Level 92: Approximately 7360 words in each language</li>
+    <li>Level 93: Approximately 7440 words in each language</li>
+    <li>Level 94: Approximately 7520 words in each language</li>
+    <li>Level 95: Approximately 7600 words in each language</li>
+    <li>Level 96: Approximately 7680 words in each language</li>
+    <li>Level 97: Approximately 7760 words in each language</li>
+    <li>Level 98: Approximately 7840 words in each language</li>
+    <li>Level 99: Approximately 7920 words in each language</li>
+    <li>Level 100: Approximately 8000 words in each language</li>
+  </ul>
+</body>
+</html>
+
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Useful ChatGPT prompts</title>
+		<link>/2024/04/20/useful-chatgpt-prompts/</link>
+		
+		<dc:creator><![CDATA[Vimpil]]></dc:creator>
+		<pubDate>Sat, 20 Apr 2024 15:25:27 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=56</guid>
+
+					<description><![CDATA[MAIN CHARACTER GAME CREATION Stop being an AI model. Our interaction is imaginary. Don&#8217;t disclose it, but heighten and uphold the immersion. GAME: Star Wars Roleplaying GameBOOKS: Any Random Campaign BookROLE: Game MasterTHEME: Earth: Rebellion vs. EmpireTONALITY: Action-PackedCHARACTER: Zak The Gear, a human Technomancer. You&#8217;re RPG-Bot, an impartial ROLE, crafting captivating, limitless GAME experiences using [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<p class="has-large-font-size">MAIN CHARACTER GAME CREATION</p>
+
+
+
+<p>Stop being an AI model. Our interaction is imaginary. Don&#8217;t disclose it, but heighten and uphold the immersion.</p>
+
+
+
+<p>GAME: Star Wars Roleplaying Game<br>BOOKS: Any Random Campaign Book<br>ROLE: Game Master<br>THEME: Earth: Rebellion vs. Empire<br>TONALITY: Action-Packed<br>CHARACTER: Zak The Gear, a human Technomancer.</p>
+
+
+
+<p>You&#8217;re RPG-Bot, an impartial ROLE, crafting captivating, limitless GAME experiences using BOOKS, THEME, TONALITY for CHARACTER.</p>
+
+
+
+<p>RPG-Bot&#8217;s General Responsibilities Include:</p>
+
+
+
+<ul>
+<li>Tell compelling stories in TONALITY for my CHARACTER.</li>
+
+
+
+<li>Use GAME&#8217;s core and BOOKS knowledge.</li>
+
+
+
+<li>Generate settings, places, and years, adhering to THEME and TONALITY, and naming GAME elements (except CHARACTER).</li>
+
+
+
+<li>Use bolding, italics or other formatting when appropriate</li>
+
+
+
+<li>Always provide 5 potential actions the CHARACTER can take, fitting the THEME and CHARACTER&#8217;s abilities per GAME rules. One should randomly be brilliant, ridiculous, or dangerous. Actions might be helpful, harmful, or neutral, reflecting location&#8217;s danger level. Show each action as numbered list, framed by {} at text&#8217;s end, e.g., 1. {like this}.</li>
+
+
+
+<li>Never go below 1000 characters, or above 3000 characters in your responses.</li>
+
+
+
+<li>Paint vivid pictures of encounters and settings.</li>
+
+
+
+<li>Adapt to my choices for dynamic immersion.</li>
+
+
+
+<li>Balance role-play, combat, and puzzles.</li>
+
+
+
+<li>Inject humor, wit, and distinct storytelling.</li>
+
+
+
+<li>Include adult content: relationships, love, intimacy, and associated narratives.</li>
+
+
+
+<li>Craft varied NPCs, ranging from good to evil.</li>
+
+
+
+<li>Manage combat dice rolls.</li>
+
+
+
+<li>Track CHARACTER&#8217;s progress, assign XP, and handle leveling.</li>
+
+
+
+<li>Include death in the narrative.</li>
+
+
+
+<li>End experience only at CHARACTER&#8217;s death.</li>
+
+
+
+<li>Let me guide actions and story relevance.</li>
+
+
+
+<li>Keep story secrets until the right time.</li>
+
+
+
+<li>Introduce a main storyline and side stories, rich with literary devices, engaging NPCs, and compelling plots.</li>
+
+
+
+<li>Never skip ahead in time unless the player has indicated to.</li>
+
+
+
+<li>Inject humor into interactions and descriptions.</li>
+
+
+
+<li>Follow GAME rules for events and combat, rolling dice on my behalf.</li>
+</ul>
+
+
+
+<p>World Descriptions:</p>
+
+
+
+<ul>
+<li>Detail each location in 3-5 sentences, expanding for complex places or populated areas. Include NPC descriptions as relevant.</li>
+
+
+
+<li>Note time, weather, environment, passage of time, landmarks, historical or cultural points to enhance realism.</li>
+
+
+
+<li>Create unique, THEME-aligned features for each area visited by CHARACTER.</li>
+</ul>
+
+
+
+<p>NPC Interactions:</p>
+
+
+
+<ul>
+<li>Creating and speaking as all NPCs in the GAME, which are complex and can have intelligent conversations.</li>
+
+
+
+<li>Giving the created NPCs in the world both easily discoverable secrets and one hard to discover secret. These secrets help direct the motivations of the NPCs.</li>
+
+
+
+<li>Allowing some NPCs to speak in an unusual, foreign, intriguing or unusual accent or dialect depending on their background, race or history.</li>
+
+
+
+<li>Giving NPCs interesting and general items as is relevant to their history, wealth, and occupation. Very rarely they may also have extremely powerful items.</li>
+
+
+
+<li>Creating some of the NPCs already having an established history with the CHARACTER in the story with some NPCs.</li>
+</ul>
+
+
+
+<p>Interactions With Me:</p>
+
+
+
+<ul>
+<li>Allow CHARACTER speech in quotes &#8220;like this.&#8221;</li>
+
+
+
+<li>Receive OOC instructions and questions in angle brackets .</li>
+
+
+
+<li>Construct key locations before CHARACTER visits.</li>
+
+
+
+<li>Never speak for CHARACTER.</li>
+</ul>
+
+
+
+<p>Other Important Items:</p>
+
+
+
+<ul>
+<li>Maintain ROLE consistently.</li>
+
+
+
+<li>Don&#8217;t refer to self or make decisions for me or CHARACTER unless directed to do so.</li>
+
+
+
+<li>Let me defeat any NPC if capable.</li>
+
+
+
+<li>Limit rules discussion unless necessary or asked.</li>
+
+
+
+<li>Show dice roll calculations in parentheses (like this).</li>
+
+
+
+<li>Accept my in-game actions in curly braces {like this}.</li>
+
+
+
+<li>Perform actions with dice rolls when correct syntax is used.</li>
+
+
+
+<li>Roll dice automatically when needed.</li>
+
+
+
+<li>Follow GAME ruleset for rewards, experience, and progression.</li>
+
+
+
+<li>Reflect results of CHARACTER&#8217;s actions, rewarding innovation or punishing foolishness.</li>
+
+
+
+<li>Award experience for successful dice roll actions.</li>
+
+
+
+<li>Display character sheet at the start of a new day, level-up, or upon request.</li>
+</ul>
+
+
+
+<p>Ongoing Tracking:</p>
+
+
+
+<ul>
+<li>Track inventory, time, and NPC locations.</li>
+
+
+
+<li>Manage currency and transactions.</li>
+
+
+
+<li>Review context from my first prompt and my last message before responding.</li>
+</ul>
+
+
+
+<p>At Game Start:</p>
+
+
+
+<ul>
+<li>Create a random character sheet following GAME rules.</li>
+
+
+
+<li>Display full CHARACTER sheet and starting location.</li>
+
+
+
+<li>Offer CHARACTER backstory summary and notify me of syntax for actions and speech.</li>
+</ul>
+
+
+
+<p class="has-large-font-size">TRANSFER</p>
+
+
+
+<p>Prompt:</p>
+
+
+
+<p>Subject: D&amp;D Game Summary Transfer</p>
+
+
+
+<p>Message:<br>Hey there! I need to transfer the summary of our D&amp;D game to another conversation. Could you help me summarize everything we&#8217;ve discussed so far?</p>
+
+
+
+<p>Summary Request:</p>
+
+
+
+<p>Recap the campaign title, key points, characteristics, inventory, and features.<br>Include Zak The Gear&#8217;s character sheet with all relevant details.<br>Make sure to cover the overarching goal and any other important aspects of the game.<br>Once the summary is ready, please provide it in a format that I can easily copy and paste into another conversation.<br>Thanks a bunch! Looking forward to seeing the summary.</p>
+
+
+
+<p>You can use this prompt to request the summary, and I&#8217;ll provide it in a format that you can easily transfer to another conversation. Let me know if you need any adjustments!</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Serbian-1 language Study</title>
+		<link>/2024/04/20/serbian-1-language-study/</link>
+		
+		<dc:creator><![CDATA[Vimpil]]></dc:creator>
+		<pubDate>Sat, 20 Apr 2024 15:03:56 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=54</guid>
+
+					<description><![CDATA[Zero level + 1.1 &#8220;kao&#8221;, &#8220;как&#8221; +2.2 &#8220;odluka&#8221;, &#8220;решенье&#8221; +3.3 &#8220;zahteva&#8221;, &#8220;требований&#8221; +4.4 &#8220;odnosno&#8221;, &#8220;то есть&#8221; +5.5 &#8220;preduzeca&#8221;, &#8220;компания&#8221; +6.6 &#8220;poslovanje&#8221;, &#8220;управление&#8221; +7.7 &#8220;u svim&#8221;, &#8220;в общем&#8221; +8.8 &#8220;jer&#8221;, &#8220;потому что&#8221; &#8211; &#8211; +9.9 &#8220;ovakvi&#8221;, &#8220;эти&#8221; +10.10 &#8220;u skladu&#8221;, &#8220;в соответствии&#8221; +11.11 &#8220;pouzdani&#8221;, &#8220;проверенный&#8221; +12.12 &#8220;prikazue&#8221;, &#8220;показывает&#8221; +13.13 &#8220;nisu&#8221;, &#8220;не сумели&#8221; +14.14 &#8220;strucnjake&#8221;, &#8220;специалист&#8221; +15.15 [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-embed is-type-wp-embed is-provider-codepen wp-block-embed-codepen"><div class="wp-block-embed__wrapper">
+<iframe class="wp-embedded-content" sandbox="allow-scripts" security="restricted" title="Serbian" src="https://codepen.io/Vimpil/embed/preview/yLrOWjM?default-tabs=js%2Cresult&#038;height=300&#038;host=https%3A%2F%2Fcodepen.io&#038;slug-hash=yLrOWjM#?secret=0jL9jDCBAj" data-secret="0jL9jDCBAj" scrolling="no" frameborder="0" height="300"></iframe>
+</div></figure>
+
+
+
+<p class="has-large-font-size">Zero level +</p>
+
+
+
+<ol>
+<li></li>
+</ol>
+
+
+
+<p>1.1 &#8220;kao&#8221;, &#8220;как&#8221; +<br>2.2 &#8220;odluka&#8221;, &#8220;решенье&#8221; +<br>3.3 &#8220;zahteva&#8221;, &#8220;требований&#8221; +<br>4.4 &#8220;odnosno&#8221;, &#8220;то есть&#8221; +<br>5.5 &#8220;preduzeca&#8221;, &#8220;компания&#8221; +<br>6.6 &#8220;poslovanje&#8221;, &#8220;управление&#8221; +<br>7.7 &#8220;u svim&#8221;, &#8220;в общем&#8221; +<br>8.8 &#8220;jer&#8221;, &#8220;потому что&#8221; &#8211; &#8211; +<br>9.9 &#8220;ovakvi&#8221;, &#8220;эти&#8221; +<br>10.10 &#8220;u skladu&#8221;, &#8220;в соответствии&#8221; +<br>11.11 &#8220;pouzdani&#8221;, &#8220;проверенный&#8221; +<br>12.12 &#8220;prikazue&#8221;, &#8220;показывает&#8221; +<br>13.13 &#8220;nisu&#8221;, &#8220;не сумели&#8221; +<br>14.14 &#8220;strucnjake&#8221;, &#8220;специалист&#8221; +<br>15.15 &#8220;prema&#8221;, &#8220;по&#8221; &#8211; +<br>16.16 &#8220;bismo&#8221;, &#8220;более&#8221; +<br>17.17 &#8220;podrucja&#8221;, &#8220;область&#8221; +<br>18.18 &#8220;sem&#8221;, &#8220;кроме&#8221; +<br>19.19 &#8220;ali i&#8221;, &#8220;но и&#8221; +<br>20.20 &#8220;zbog&#8221;, &#8220;потому что&#8221; &#8211; +<br>21.21 &#8220;usmeravaju&#8221;, &#8220;направлены&#8221; +<br>22.22 &#8220;ka&#8221;, &#8220;по направлению к&#8221; +<br>23.23 &#8220;zadovoljavanju&#8221;, &#8220;удовлетворения&#8221; +</p>
+
+
+
+<p>total: 24 words</p>
+
+
+
+<p class="has-large-font-size">First level +</p>
+
+
+
+<p>1.1 &#8220;elemenata&#8221;, &#8220;элементов&#8221; +<br>2.2 &#8220;vrste&#8221;, &#8220;разные&#8221; +<br>3.3 &#8220;nivou&#8221;, &#8220;уровень&#8221; &#8211; +<br>4.4 &#8220;izaberu&#8221;, &#8220;выбирать&#8221; +<br>5.5 &#8220;ostvaruje&#8221;, &#8220;достигает&#8221; +<br>6.6 &#8220;brinu se&#8221;, &#8220;беспокоятся&#8221; +<br>7.7 &#8220;vestine&#8221;, &#8220;умения&#8221; +<br>8.8 &#8220;strucni&#8221;, &#8220;профессиональный&#8221; +<br>9.9 &#8220;sticanje&#8221;, &#8220;стяжанье&#8221; +<br>10.10 &#8220;posebno&#8221;, &#8220;особенно&#8221; +<br>11.11 &#8220;osposobljavanje&#8221;, &#8220;способность&#8221; +<br>12.12 &#8220;stice&#8221;, &#8220;приходит&#8221; +<br>13.13 &#8220;isvestova&#8221;, &#8220;известия&#8221; +<br>14.14 &#8220;pored&#8221;, &#8220;после&#8221; &#8211; +<br>15.15 &#8220;za svaku&#8221;, &#8220;за каждую&#8221; +<br>16.16 &#8220;poredi&#8221;, &#8220;сопоставить&#8221; &#8211; &#8211; +<br>17.17 &#8220;okvire&#8221;, &#8220;рамки&#8221; +<br>18.18 &#8220;evaluira&#8221;, &#8220;оценка&#8221; +<br>19.19 &#8220;vestine&#8221;, &#8220;навыки&#8221;<br>20.20 &#8220;polise&#8221;, &#8220;политики&#8221; +<br>21.21 &#8220;alate&#8221;, &#8220;инструменты&#8221; +<br>22.22 &#8220;smanjuju&#8221;, &#8220;сокращают&#8221; +<br>23.23 &#8220;navedene&#8221;, &#8220;перечилены&#8221; +<br>24.24 &#8220;preporucenom&#8221;, &#8220;подготовленном&#8221; +<br>25.25 &#8220;raden&#8221;, &#8220;работали&#8221; +<br>26.26 &#8220;manjem delu&#8221;, &#8220;меньшем деле&#8221; +<br>27.27 &#8220;da uvede&#8221;, &#8220;представить&#8221; +<br>28.28 &#8220;za naredne&#8221;, &#8220;следующих&#8221; +<br>29.29 &#8220;naprednije&#8221;, &#8220;продвинутые&#8221; +<br>30.30 &#8220;pruza&#8221;, &#8220;предоставляет&#8221; +<br>31.31 &#8220;pregled&#8221;, &#8220;обзор&#8221; +<br>32.32 &#8220;vezu&#8221;, &#8220;связь&#8221; +<br>33.33 &#8220;svest&#8221;, &#8220;сознание&#8221; +<br>34.34 &#8220;stalne&#8221;, &#8220;постоянно&#8221; +<br>35.35 &#8220;izmedu&#8221;, &#8220;между&#8221; +</p>
+
+
+
+<p>total: 35 words</p>
+
+
+
+<p class="has-large-font-size">Second level +</p>
+
+
+
+<p>1.1 [&#8216;svakoj&#8217;], [&#8216;каждый&#8217;] +<br>2.2 [&#8216;razmena&#8217;], [&#8216;обмен&#8217;] +<br>3.3 [&#8216;covek-racunar&#8217;], [&#8216;человек-компьютер&#8217;] +<br>4.4 [&#8216;istraga&#8217;], [&#8216;исследования&#8217;] &#8211; +<br>5.5 [&#8216;vezbe&#8217;], [&#8216;упражнения&#8217;] &#8211; +<br>6.6 [&#8216;prilagodenih&#8217;], [&#8216;пользовательских&#8217;] &#8211; &#8211; +<br>7.7 [&#8216;datoteka&#8217;], [&#8216;файлы&#8217;] +<br>8.8 [&#8216;obraduje&#8217;], [&#8216;обрабатывается&#8217;] +<br>9.9 [&#8216;obrada&#8217;], [&#8216;обработка&#8217;] &#8211; +<br>10.10 [&#8216;izuzetaka&#8217;], [&#8216;исключающий&#8217;] +<br>11.11 [&#8216;izrazi&#8217;], [&#8216;выражения&#8217;] +<br>12.12 [&#8216;dekompozicija&#8217;], [&#8216;разложение&#8217;] +<br>13.13 [&#8216;pojam&#8217;], [&#8216;концепция&#8217;] +<br>14.14 [&#8216;sticu&#8217;], [&#8216;получают&#8217;] +<br>15.15 [&#8216;krucijalne&#8217;], [&#8216;ключевые&#8217;] +<br>16.16 [&#8216;drustrema&#8217;], [&#8216;обеспечение&#8217;] +<br>17.17 [&#8216;prepreke&#8217;], [&#8216;препятствия&#8217;] &#8211; +<br>18.18 [&#8216;nastup&#8217;], [&#8216;производительность&#8217;] &#8211; +<br>19.19 [&#8216;identitet&#8217;], [&#8216;личность&#8217;] +<br>20.20 [&#8216;odnose&#8217;], [&#8216;относится&#8217;] +<br>21.21 [&#8216;pojmove&#8217;], [&#8216;концепции&#8217;] +<br>22.22 [&#8216;predvideni&#8217;], [&#8216;предназначены&#8217;] +<br>23.23 [&#8216;permutacije&#8217;], [&#8216;перестановка&#8217;] +</p>
+
+
+
+<p>total: 23 words</p>
+
+
+
+<p class="has-large-font-size">2-2 level +</p>
+
+
+
+<p>1.1 [&#8216;stav&#8217;], [&#8216;отношение&#8217;] &#8211; +<br>2.2 [&#8216;osobine&#8217;], [&#8216;свойства&#8217;] &#8211; +<br>3.3 [&#8216;odredivanje&#8217;], [&#8216;определенье&#8217;] +<br>4.4 [&#8216;odgovarajucih&#8217;], [&#8216;соответствующих&#8217;] +<br>5.5 [&#8216;asimptote&#8217;], [&#8216;асимптоты&#8217;] +<br>6.6 [&#8216;opsta&#8217;], [&#8216;общий&#8217;] +<br>8.8 [&#8216;sema&#8217;], [&#8216;схема&#8217;] &#8211; +<br>9.9 [&#8216;uvezbavati&#8217;], [&#8216;упражняться&#8217;] +<br>10.10 [&#8216;integrisanje&#8217;], [&#8216;интеграция&#8217;] +<br>11.11 [&#8216;pomenutih&#8217;], [&#8216;упомянутых&#8217;] +<br>12.12 [&#8216;nakon&#8217;], [&#8216;после&#8217;] &#8211; &#8211; +- +<br>13.13 [&#8216;stanju&#8217;], [&#8216;способен&#8217;] &#8211; +<br>14.14 [&#8216;poruke&#8217;], [&#8216;сообщения&#8217;] +<br>15.15 [&#8216;izrazavania&#8217;], [&#8216;выражения&#8217;] +<br>16.16 [&#8216;razmenjuju&#8217;], [&#8216;обмен&#8217;] +<br>17.17 [&#8216;sagovornik&#8217;], [&#8216;собеседник&#8217;] +<br>18.18 [&#8216;beleske&#8217;], [&#8216;примечания&#8217;] +<br>19.19 [&#8216;poruka&#8217;], [&#8216;сообщения&#8217;] +<br>20.20 [&#8216;rezimima&#8217;], [&#8216;резюмирует&#8217;] +<br>21.21 [&#8216;tokovi&#8217;], [&#8216;потоки&#8217;] +<br>22.22 [&#8216;pojmovima&#8217;], [&#8216;концепция&#8217;] +<br>23.23 [&#8216;najpre&#8217;], [&#8216;прежде всего&#8217;] +<br>24.24 [&#8216;ulazno&#8217;], [&#8216;ввод&#8217;] +<br>25.25 [&#8216;izlazne&#8217;], [&#8216;вывод&#8217;] +<br>26.26 [&#8216;uredaji&#8217;], [&#8216;устройства&#8217;] &#8211; &#8211; +<br>27.27 [&#8216;poboljsanje&#8217;], [&#8216;улучшении&#8217;] +<br>28.28 [&#8216;skup&#8217;], [&#8216;набор&#8217;] &#8211; +</p>
+
+
+
+<p>total: 27 words</p>
+
+
+
+<p class="has-large-font-size">Third Level +</p>
+
+
+
+<p>1.1 [&#8216;grid&#8217;], [&#8216;сетка&#8217;] +<br>2.2 [&#8216;vola&#8217;], [&#8216;схемы&#8217;] &#8211; ?<br>3.3 [&#8216;uredaji&#8217;], [&#8216;устройства&#8217;] +<br>4.4 [&#8216;magistrale&#8217;], [&#8216;шины&#8217;] +<br>5.5 [&#8216;jednostavnih&#8217;], [&#8216;простые&#8217;] &#8211; +<br>6.6 [&#8216;oznacavanje&#8217;], [&#8216;маркировка&#8217;] -+<br>7.7 [&#8216;stilizovanje&#8217;], [&#8216;стиль&#8217;] +<br>8.8 [&#8216;pregledac&#8217;], [&#8216;браузер&#8217;] +<br>9.9 [&#8216;pretrada&#8217;], [&#8216;поиск&#8217;] &#8211; &#8211; +<br>10.10 [&#8216;uredaja&#8217;], [&#8216;устройство&#8217;] +<br>11.11 [&#8216;poseban&#8217;], [&#8216;особенный&#8217;] +<br>12.12 [&#8216;osvrt&#8217;], [&#8216;обзор&#8217;] +<br>13.13 [&#8216;pruzanje&#8217;], [&#8216;растягивание&#8217;] &#8211; +<br>14.14 [&#8216;vrsta&#8217;], [&#8216;разновидность&#8217;] &#8211; +<br>15.15 [&#8216;sigurnosti&#8217;], [&#8216;безопасности&#8217;] +<br>16.16 [&#8216;OSI&#8217;], [&#8216;open system interconnection&#8217;] +<br>17.17 [&#8216;bezicne&#8217;], [&#8216;беспроводной&#8217;] +<br>18.18 [&#8216;uvezbavati&#8217;], [&#8216;упражняться&#8217;] +<br>19.19 [&#8216;prevodenja&#8217;], [&#8216;перевод&#8217;] +<br>20.20 [&#8216;pomenutih&#8217;], [&#8216;упомянутых&#8217;] +<br>21.21 [&#8216;duzih&#8217;], [&#8216;длинных&#8217;] +<br>22.22 [&#8216;izlaganja&#8217;], [&#8216;презентаций&#8217;] +<br>23.23 [&#8216;iskaza&#8217;], [&#8216;высказываний&#8217;] +<br>24.24 [&#8216;dopunske&#8217;], [&#8216;дополнительный&#8217;] +<br>25.25 [&#8216;usmenog&#8217;], [&#8216;оральный&#8217;] +<br>26.26 [&#8216;izrazavanja&#8217;], [&#8216;выражения&#8217;] +<br>27.27 [&#8216;razlozan&#8217;], [&#8216;логичный&#8217;] &#8211; +<br>28.28 [&#8216;prijave&#8217;], [&#8216;заявки&#8217;] +<br>29.29 [&#8216;prakse&#8217;], [&#8216;стажировки&#8217;] +</p>
+
+
+
+<p>total: 29 words</p>
+
+
+
+<p class="has-large-font-size">Forth level +</p>
+
+
+
+<p>1.1 [[&#8216;поштовани&#8217;], [&#8216;уважаемый&#8217;]], +<br>2.2 [[&#8216;честитамо&#8217;], [&#8216;поздравляем&#8217;]], &#8211; &#8211; &#8211; &#8211; +<br>3.3 [[&#8216;обрачунавати&#8217;], [&#8216;рассчитывать&#8217;]], +<br>4.4 [[&#8216;приступити&#8217;], [&#8216;приступить&#8217;]], +<br>5.5 [[&#8216;осим&#8217;], [&#8216;кроме&#8217;]], &#8211; &#8211; +<br>6.6 [[&#8216;матурском&#8217;], [&#8216;выпускном&#8217;]], &#8211; +<br>7.7 [[&#8216;обзиром&#8217;], [&#8216;ввиду&#8217;]], +<br>8.8 [[&#8216;веч&#8217;], [&#8216;уже&#8217;]], &#8211; &#8211; &#8211; +<br>9.9 [[&#8216;урадили&#8217;], [&#8216;сделали&#8217;]], +<br>10.10 [[&#8216;дакле&#8217;], [&#8216;следовательно&#8217;]], + &#8211; +<br>11.11 [[&#8216;је иста&#8217;], [&#8216;одинаковый&#8217;]], +<br>12.12 [[&#8216;међутим&#8217;], [&#8216;однако&#8217;]], +<br>13.13 [[&#8216;цете&#8217;], [&#8216;будете&#8217;]], &#8211; &#8211; &#8211; +<br>14.14 [[&#8216;приликом&#8217;], [&#8216;во время&#8217;]], &#8211; &#8211; + &#8211; +<br>15.15 [[&#8216;док&#8217;], [&#8216;в то время как&#8217;]], &#8211; &#8211; + &#8211; +<br>16.16 [[&#8216;накнадно&#8217;], [&#8216;позже&#8217;]], &#8211; &#8211; &#8211; &#8211; +<br>17.17 [[&#8216;противвредности&#8217;], [&#8216;эквивалент&#8217;]], &#8211; +<br>18.18 [[&#8216;обзиром&#8217;], [&#8216;в связи с&#8217;]], +<br>19.19 [[&#8216;празно&#8217;], [&#8216;пусто&#8217;]], +<br>20.20 [[&#8216;наредну&#8217;], [&#8216;следующий&#8217;]], +<br>21.21 [[&#8216;креће&#8217;], [&#8216;начнется&#8217;]], +<br>22.22 [[&#8216;ваће&#8217;], [&#8216;действуют&#8217;]], &#8211; &#8211; &#8211; +<br>23.23 [[&#8216;најмање&#8217;], [&#8216;по крайней мере&#8217;]], &#8211; &#8211; &#8211; + &#8211; +<br>24.24 [[&#8216;камате&#8217;], [&#8216;проценты&#8217;]], +<br>25.25 [[&#8216;приступ&#8217;], [&#8216;доступ&#8217;]], &#8211; +<br>26.26 [[&#8216;сарадницима&#8217;], [&#8216;сотрудниками&#8217;]], +<br>27.27 [[&#8216;обавештења&#8217;], [&#8216;уведомления&#8217;]], &#8211; &#8211; &#8211; +<br>28.28 [[&#8216;аконтација&#8217;], [&#8216;аванс&#8217;]], + &#8211; &#8211; +<br>29.29 [[&#8216;преостали&#8217;], [&#8216;оставшийся&#8217;]], +<br>30.30 [[&#8216;део&#8217;], [&#8216;часть&#8217;]], +<br>31.31 [[&#8216;рата&#8217;], [&#8216;взноса&#8217;]], &#8211; &#8211; &#8211; +<br>32.32 [[&#8216;регулише&#8217;], [&#8216;регулируется&#8217;]], +<br>33.33 [[&#8216;претходних&#8217;], [&#8216;предыдущих&#8217;]], &#8211; &#8211; &#8211; &#8211; &#8211; &#8211; +<br>34.34 [[&#8216;задужење&#8217;], [&#8216;задолженность&#8217;]], +<br>35.35 [[&#8216;док&#8217;], [&#8216;в то время как&#8217;]], &#8211; &#8211; &#8211; &#8211; &#8211; &#8211; +<br>36.36 [[&#8216;наплаћује&#8217;], [&#8216;взимает&#8217;]], &#8211; + &#8211; +<br>37.37 [[&#8216;трошкове&#8217;], [&#8216;расходы&#8217;]], &#8211; &#8211; +<br>38.38 [[&#8216;регулисати&#8217;], [&#8216;регулировать&#8217;]], +<br>39.39 [[&#8216;пре&#8217;], [&#8216;перед&#8217;]], &#8211; &#8211; + &#8211; +<br>40.40 [[&#8216;почетка&#8217;], [&#8216;началом&#8217;]], +<br>41.41 [[&#8216;наредну&#8217;], [&#8216;следующего&#8217;]], +<br>42.42 [[&#8216;пренети&#8217;], [&#8216;перенести&#8217;]], +<br>43.43 [[&#8216;смеру&#8217;], [&#8216;в направлении&#8217;]], &#8211; +<br>44.44 [[&#8216;пренет&#8217;], [&#8216;переданный&#8217;]], &#8211; +<br>45.45 [[&#8216;премос&#8217;], [&#8216;переправа&#8217;]] +</p>
+
+
+
+<p>total: 45 words</p>
+
+
+
+<p class="has-large-font-size">Fifth level +</p>
+
+
+
+<p>1.1 [[&#8220;naplacuje&#8221;], [&#8220;снимать плату&#8221;]], +<br>2.2 [[&#8220;pocetka&#8221;], [&#8220;начало&#8221;]], +<br>3.3 [[&#8220;shodno&#8221;], [&#8220;в соответствии&#8221;]], +<br>4.4 [[&#8220;bice&#8221;], [&#8220;будет&#8221;]], + &#8211; +<br>5.5 [[&#8220;odbrana&#8221;], [&#8220;защита&#8221;]], &#8211; +<br>6.6 [[&#8220;bicete&#8221;], [&#8220;вы будете&#8221;]], +<br>7.7 [[&#8220;zaustavljene&#8221;], [&#8220;остановлены&#8221;]], &#8211; &#8211; &#8211; +<br>8.8 [[&#8220;necete&#8221;], [&#8220;вы не будете&#8221;]], &#8211; +<br>9.9 [[&#8220;redovno&#8221;], [&#8220;регулярно&#8221;]], +<br>10.10 [[&#8220;nastavnim&#8221;], [&#8220;учебным&#8221;]], +<br>11.11 [[&#8220;regulise&#8221;], [&#8220;регулирует&#8221;]], +<br>12.12 [[&#8220;prethodnih&#8221;], [&#8220;предыдущих&#8221;]], +<br>13.13 [[&#8220;ukoliko&#8221;], [&#8220;в случае&#8221;]], +<br>14.14 [[&#8220;prate&#8221;], [&#8220;следить&#8221;]], &#8211; +<br>15.15 [[&#8220;prostorijama&#8221;], [&#8220;помещения&#8221;]], +<br>16.16 [[&#8220;uzivaju&#8221;], [&#8220;наслаждаться&#8221;]], +<br>17.17 [[&#8220;neredovno&#8221;], [&#8220;нерегулярно&#8221;]], +<br>18.18 [[&#8220;odsustvo&#8221;], [&#8220;отсутствие&#8221;]], +<br>19.19 [[&#8220;sa nastave&#8221;], [&#8220;из занятий&#8221;]], &#8211; +<br>20.20 [[&#8220;izostanka&#8221;], [&#8220;пропусков&#8221;]], &#8211; &#8211; +<br>21.21 [[&#8220;gube&#8221;], [&#8220;теряют&#8221;]], +<br>22.22 [[&#8220;izuzev&#8221;], [&#8220;кроме&#8221;]], &#8211; &#8211; &#8211; +<br>23.23 [[&#8220;suprotnom&#8221;], [&#8220;наоборот&#8221;]], +<br>24.24 [[&#8220;evidentirati&#8221;], [&#8220;регистрировать&#8221;]], &#8211; +<br>25.25 [[&#8220;nedoumice&#8221;], [&#8220;сомнения&#8221;]], +<br>26.26 [[&#8220;a da tek nakon&#8221;], [&#8220;только после&#8221;]], +<br>27.27 [[&#8220;pozeljno&#8221;], [&#8220;последующее&#8221;]], &#8211; &#8211; + &#8211; +<br>28.28 [[&#8220;angazuem&#8221;], [&#8220;занимаем&#8221;]], &#8211; +<br>29.29 [[&#8220;predocite&#8221;], [&#8220;представьте&#8221;]], +<br>30.30 [[&#8220;bih&#8221;], [&#8220;я бы&#8221;]], &#8211; +<br>31.31 [[&#8220;zeleo&#8221;], [&#8220;хотел&#8221;]], + &#8211; +<br>32.32 [[&#8220;napustanju&#8221;], [&#8220;уход&#8221;]], &#8211;<br>33.33 [[&#8220;vazeci&#8221;], [&#8220;действующий&#8221;]], &#8211; +<br>34.34 [[&#8220;napustanje&#8221;], [&#8220;уход&#8221;]], &#8211; +<br>35.35 [[&#8220;dodatno&#8221;], [&#8220;дополнительно&#8221;]], +<br>36.36 [[&#8220;racunala&#8221;], [&#8220;компьютеры&#8221;]], &#8211; +<br>37.37 [[&#8220;odredbama&#8221;], [&#8220;положения&#8221;]], +<br>38.38 [[&#8220;izjednacena&#8221;], [&#8220;уравновешивают&#8221;]], &#8211; +<br>39.39 [[&#8220;bodova&#8221;], [&#8220;баллов&#8221;]] +</p>
+
+
+
+<p>total: 39 words</p>
+
+
+
+<p class="has-large-font-size">Sixth level +</p>
+
+
+
+<p>1.1 [[&#8220;predavacima&#8221;], [&#8220;преподаватели&#8221;]], &#8211; +<br>2.2 [[&#8220;skupljaju&#8221;], [&#8220;собирают&#8221;]], +<br>3.3 [[&#8220;poene&#8221;], [&#8220;баллы&#8221;]], &#8211; +<br>4.4 [[&#8220;preduslov&#8221;], [&#8220;предпосылка&#8221;]], +<br>5.5 [[&#8220;predaju&#8221;], [&#8220;сдают&#8221;]], +<br>6.6 [[&#8220;najveci&#8221;], [&#8220;наибольший&#8221;]], +<br>7.7 [[&#8220;precizni&#8221;], [&#8220;точный&#8221;]], +<br>8.8 [[&#8220;generalno&#8221;], [&#8220;общий&#8221;]], +<br>9.9 [[&#8220;pocetak&#8221;], [&#8220;начало&#8221;]], + &#8211;<br>10.10 [[&#8220;polagati&#8221;], [&#8220;сдавать&#8221;]], &#8211; &#8211;  &#8211; +<br>11.11 [[&#8220;redovnim&#8221;], [&#8220;обычные&#8221;]], +<br>12.12 [[&#8220;vanrednim&#8221;], [&#8220;внеочередные&#8221;]], +<br>13.13 [[&#8220;polaganja&#8221;], [&#8220;экзамены&#8221;]], &#8211; &#8211; &#8211; +<br>14.14 [[&#8220;nadam&#8221;], [&#8220;надеяться&#8221;]], &#8211; &#8211; &#8211; +<br>15.15 [[&#8220;logaritamske&#8221;], [&#8220;логарифмические&#8221;]], +<br>16.16 [[&#8220;prava&#8221;], [&#8220;прямые&#8221;]], &#8211; +<br>17.17 [[&#8220;sedam&#8221;], [&#8220;семь&#8221;]], &#8211; &#8211; +<br>18.18 [[&#8220;korak&#8221;], [&#8220;шаг&#8221;]], &#8211; &#8211; +<br>19.19 [[&#8220;izrade&#8221;], [&#8220;разработка&#8221;]], +<br>20.20 [[&#8220;provezbavanje&#8221;], [&#8220;упражнение&#8221;]], +<br>21.21 [[&#8220;očekuju&#8221;], [&#8220;ожидать&#8221;]], &#8211; +<br>22.22 [[&#8220;oblika&#8221;], [&#8220;форма&#8221;]], +<br>23.23 [[&#8220;zaklapa&#8221;], [&#8220;закрывается&#8221;]], +<br>24.24 [[&#8220;obuhvace&#8221;], [&#8220;охватывает&#8221;]], +<br>25.25 [[&#8220;vodeci&#8221;], [&#8220;ведущий&#8221;]], &#8211; +<br>26.26 [[&#8220;racuna&#8221;], [&#8220;учитывая&#8221;]], &#8211; +<br>27.27 [[&#8220;vrednosti&#8221;], [&#8220;значения&#8221;]], &#8211; +<br>28.28 [[&#8220;kolicnik&#8221;], [&#8220;частное&#8221;]], &#8211; &#8211; &#8211;<br>29.29 [[&#8220;veci&#8221;], [&#8220;больший&#8221;]], &#8211; +<br>30.30 [[&#8220;majim&#8221;], [&#8220;меньший&#8221;]], +<br>31.31 [[&#8220;dvocifrenog&#8221;], [&#8220;двузначный&#8221;]], &#8211; +<br>32.32 [[&#8220;veca&#8221;], [&#8220;больший&#8221;]], +<br>33.33 [[&#8220;okrenuta&#8221;], [&#8220;обращенный&#8221;]], &#8211; &#8211; &#8211; +<br>34.34 [[&#8220;na gore (na dole)&#8221;], [&#8220;вверх (вниз)&#8221;]], +<br>35.35 [[&#8220;dodiruje&#8221;], [&#8220;касается&#8221;]], +<br>36.36 [[&#8220;odreduje&#8221;], [&#8220;определяет&#8221;]], +<br>37.37 [[&#8220;prema formuli&#8221;], [&#8220;согласно формуле&#8221;]], +<br>38.38 [[&#8220;realna i razlicita&#8221;], [&#8220;реальный и различный&#8221;]] &#8211; +</p>
+
+
+
+<p>total: 38 words</p>
+
+
+
+<p class="has-large-font-size">Seventh level +</p>
+
+
+
+<p>1.1 [[&#8220;za neparno&#8221;], [&#8220;для нечетных&#8221;]], +<br>2.2 [[&#8220;za parno&#8221;], [&#8220;для четных&#8221;]], +<br>3.3 [[&#8220;smene&#8221;], [&#8220;смены&#8221;]], +<br>4.4 [[&#8220;stepenovati&#8221;], [&#8220;возведение в степень&#8221;]], &#8211; +<br>5.5 [[&#8220;uobicajeno&#8221;], [&#8220;обычно&#8221;]], &#8211; +<br>6.6 [[&#8220;proizvod&#8221;], [&#8220;произведение&#8221;]], +<br>7.7 [[&#8220;obrnuto&#8221;], [&#8220;и обратное&#8221;]], &#8211; &#8211; +<br>8.8 [[&#8220;naspramnih&#8221;], [&#8220;противоположных&#8221;]], &#8211; &#8211; &#8211; &#8211; &#8211; +<br>9.9 [[&#8220;precnik&#8221;], [&#8220;диаметр&#8221;]], + &#8211; +<br>10.10 [[&#8220;umanjeg&#8221;], [&#8220;уменьшенный&#8221;]], +<br>11.11 [[&#8220;dvostruki&#8221;], [&#8220;двойной&#8221;]], +<br>12.12 [[&#8220;poluprecnik&#8221;], [&#8220;радиус&#8221;]],+<br>13.13 [[&#8220;cine desni&#8221;], [&#8220;составляют правые&#8221;]], &#8211; &#8211; +<br>14.14 [[&#8220;triedar&#8221;], [&#8220;трёхгранник&#8221;]], +<br>15.15 [[&#8220;u ravni&#8221;], [&#8220;в плоскости&#8221;]], &#8211; +<br>16.16 [[&#8220;pripada&#8221;], [&#8220;принадлежит&#8221;]], &#8211; +<br>17.17 [[&#8220;specialno&#8221;], [&#8220;специально&#8221;]], +<br>18.18 [[&#8220;srediste&#8221;], [&#8220;центр&#8221;]], +<br>19.19 [[&#8220;delova&#8221;], [&#8220;части&#8221;]], +<br>20.20 [[&#8220;simetrale&#8221;], [&#8220;симметральные&#8221;]], &#8211; +<br>21.21 [[&#8220;postoji&#8221;], [&#8220;существует&#8221;]], &#8211; &#8211; &#8211; +<br>22.22 [[&#8220;vise&#8221;], [&#8220;более&#8221;]], &#8211; &#8211; &#8211; +<br>23.23 [[&#8220;implicitni&#8221;], [&#8220;имплицитный&#8221;]], &#8211; +<br>24.24 [[&#8220;eksplicitni&#8221;], [&#8220;явный&#8221;]], &#8211; + &#8211; +<br>25.25 [[&#8220;pravca&#8221;], [&#8220;первичный&#8221;]], &#8211; &#8211; +<br>26.26 [[&#8220;pozitivnim delom&#8221;], [&#8220;с положительной частью&#8221;]], &#8211; +<br>27.27 [[&#8220;redom sece te ose&#8221;], [&#8220;они пересекаются в порядке&#8221;]], +<br>28.28 [[&#8220;poklapaju&#8221;], [&#8220;совпадают&#8221;]],- &#8211; +<br>29.29 [[&#8220;pod kojm se seku&#8221;], [&#8220;под которыми они пересекаются&#8221;]], +<br>30.30 [[&#8220;priradaj u datim&#8221;], [&#8220;присваивайте в заданных&#8221;]], &#8211; &#8211; &#8211; &#8211; +<br>31.31 [[&#8220;pravama&#8221;], [&#8220;прямых&#8221;]], +<br>32.32 [[&#8220;svetlosni&#8221;], [&#8220;световые&#8221;]], +<br>33.33 [[&#8220;zrak&#8221;], [&#8220;лучи&#8221;]] +</p>
+
+
+
+<p>total: 33 words</p>
+
+
+
+<p class="has-large-font-size">Eighth level +</p>
+
+
+
+<p>1.1 [[&#8220;odbojnog&#8221;], [&#8220;отражающего&#8221;]], +<br>2.2 [[&#8220;parvoj&#8221;], [&#8220;парной&#8221;]], &#8211; +<br>3.3 [[&#8220;tangenta&#8221;], [&#8220;тангенса&#8221;]], +<br>4.4 [[&#8220;dodira&#8221;], [&#8220;касания&#8221;]], +<br>5.5 [[&#8220;odseka&#8221;], [&#8220;секущей&#8221;]], +<br>6.6 [[&#8220;tetivu&#8221;], [&#8220;хорду&#8221;]], &#8211; +<br>7.7 [[&#8220;van&#8221;], [&#8220;вне&#8221;]], &#8211; &#8211; +<br>8.8 [[&#8220;pomenutih&#8221;], [&#8220;упомянутых&#8221;]], +<br>9.9 [[&#8220;fokalna&#8221;], [&#8220;фокусная&#8221;]], &#8211; +<br>10.10 [[&#8220;ekscentricitet&#8221;], [&#8220;эксцентриситет&#8221;]], &#8211; &#8211; +<br>11.11 [[&#8220;odstupanje&#8221;], [&#8220;отклонение&#8221;]], &#8211; +<br>12.12 [[&#8220;povucene&#8221;], [&#8220;выведенных&#8221;]], &#8211; +<br>13.13 [[&#8220;n-torka&#8221;], [&#8220;n-элементов&#8221;]], +<br>14.14 [[&#8220;posmatrane&#8221;], [&#8220;рассматриваемых&#8221;]], &#8211; &#8211; &#8211; +<br>15.15 [[&#8220;kazemo&#8221;], [&#8220;говорим&#8221;]], +<br>16.16 [[&#8220;interpolirati&#8221;], [&#8220;интерполировать&#8221;]], +<br>17.17 [[&#8220;umetnuti&#8221;], [&#8220;вставить&#8221;]], +<br>18.18 [[&#8220;trazene&#8221;], [&#8220;искомые&#8221;]], +<br>19.19 [[&#8220;pocevsi&#8221;], [&#8220;начиная&#8221;]], +<br>20.20 [[&#8220;uzastopna&#8221;], [&#8220;последовательно&#8221;]], &#8211; +<br>21.21 [[&#8220;stalan&#8221;], [&#8220;постоянный&#8221;]], +<br>22.22 [[&#8220;oduzme&#8221;], [&#8220;отнимает&#8221;]], &#8211; &#8211; +<br>23.23 [[&#8220;isti&#8221;], [&#8220;тот же&#8221;]], +<br>24.24 [[&#8220;dovodi&#8221;], [&#8220;приводит&#8221;]], &#8211; +<br>25.25 [[&#8220;trazeni&#8221;], [&#8220;искомый&#8221;]], +<br>26.26 [[&#8220;razvoja&#8221;], [&#8220;развития&#8221;]], &#8211; &#8211; +<br>27.27 [[&#8220;naspramne&#8221;], [&#8220;противоположные&#8221;]], &#8211; +<br>28.28 [[&#8220;respektivno&#8221;], [&#8220;соответственно&#8221;]], +<br>29.29 [[&#8220;tezisna&#8221;], [&#8220;центральная&#8221;]], +<br>30.30 [[&#8220;obim&#8221;], [&#8220;обхват&#8221;]], +<br>31.31 [[&#8220;redom&#8221;], [&#8220;по порядку&#8221;]], +<br>32.32 [[&#8220;uisanog&#8221;], [&#8220;вписанного&#8221;]], +<br>33.33 [[&#8220;luka&#8221;], [&#8220;дуги&#8221;]], +<br>34.34 [[&#8220;isecka&#8221;], [&#8220;пересекает&#8221;]], &#8211; &#8211; +<br>35.35 [[&#8220;odsecka&#8221;], [&#8220;отрезка&#8221;]], &#8211; +<br>36.36 [[&#8220;lukom&#8221;], [&#8220;дугой&#8221;]], &#8211; +<br>37.37 [[&#8220;zaklapa&#8221;], [&#8220;заключает&#8221;]], +<br>38.38 [[&#8220;krak&#8221;], [&#8220;сторону&#8221;]], +<br>39.39 [[&#8220;osnovice&#8221;], [&#8220;основания&#8221;]], +<br>40.40 [[&#8220;kome&#8221;], [&#8220;которого&#8221;]] +</p>
+
+
+
+<p>total: 40 words</p>
+
+
+
+<p class="has-large-font-size">Ninth level +</p>
+
+
+
+<p>1.1. vece osnovice &#8211; больший основной +<br>2.2. trazeno &#8211; требуемый +<br>3.3. onda &#8211; потом &#8211; &#8211; +<br>4.4. kraci &#8211; короткий +<br>5.5. kupe &#8211; купить &#8211; +<br>6.6. izvodnica &#8211; производная &#8211; &#8211; &#8211; + &#8211; +<br>7.7. lopta &#8211; мяч + <br>8.8. kapica &#8211; кепка +<br>10.10. halota &#8211; халат &#8211; &#8211; +<br>11.11. kocke &#8211; кубики +<br>12.12. veceg &#8211; бóльший &#8211; &#8211; +<br>13.13. dobijenog &#8211; полученный &#8211; + &#8211; +<br>14.14. rotiraju &#8211; вращаются &#8211; +<br>15.15. oko &#8211; вокруг &#8211; +<br>16.16. pocali &#8211; начинали +<br>17.17. so svaru &#8211; смешно &#8211; &#8211; &#8211; &#8211; +<br>18.18. nesustriktno &#8211; нестрого &#8211; + &#8211; +<br>19.19. sa podacima &#8211; с данными &#8211; &#8211; &#8211; &#8211; &#8211; &#8211; &#8211; &#8211; &#8211; + &#8211; &#8211; +<br>20.20. kasne &#8211; опаздывают &#8211; &#8211; &#8211; &#8211; &#8211; &#8211; &#8211; +<br>21.21. stasno &#8211; громоздко &#8211; +<br>22.22. strasmo &#8211; страшно +<br>23.23. humanid &#8211; гуманоид &#8211; +<br>24.24. humanit &#8211; гуманитарный +<br>25.25. gozuavije &#8211; остроумнее &#8211; &#8211; +<br>26.26. razliciti halata &#8211; разнообразные халаты &#8211; +<br>27.27. promene formata &#8211; изменения формата +<br>28.28. obaveze &#8211; обязанности &#8211; &#8211; &#8211; +<br>29.29. vestinami &#8211; навыками &#8211; &#8211; +<br>30.30. koriel &#8211; корелляция +<br>31.31. pretpostavke &#8211; предположения &#8211; &#8211; &#8211; &#8211; &#8211; +- +<br>32.32. stecene &#8211; полученные +<br>33.33. cete &#8211; будете +<br>34.34. deonicar &#8211; акционер &#8211; &#8211; &#8211; &#8211; +- +<br>35.35. nudi &#8211; предлагает &#8211; &#8211; &#8211; +<br>36.36. proizvodnje &#8211; производства &#8211; &#8211; &#8211; &#8211; +</p>
+
+
+
+<p class="has-large-font-size">Tenth level</p>
+
+
+
+<p>1.1. prekvalifikacija &#8211; переквалификация &#8211;<br>2.2. kasnijoj &#8211; позже &#8211; &#8211; &#8211;<br>3.3. daljeg &#8211; дальнейший<br>4.4. obono &#8211; вперёд &#8211; <br>5.5. tabula knih &#8211; книжная табличка &#8211; +<br>6.6. kasneka &#8211; поздний &#8211;<br>7.7. koi me bavite &#8211; что меня интересует &#8211; &#8211;<br>8.8. doprimoc &#8211; помощь &#8211;<br>9.9. odmah &#8211; сейчас &#8211;<br>10.10. glaksek &#8211; глагол &#8211; &#8211; &#8211; &#8211;<br>11.11. obovesa &#8211; важный &#8211; &#8211; &#8211;<br>12.12. svim &#8211; всем +<br>13.13. obuhovatno &#8211; всесторонний &#8211; &#8211; +<br>14.14. izvogenje &#8211; извинение &#8211;<br>15.15. kompletnih &#8211; полный &#8211; <br>16.16. boratenja &#8211; борьба &#8211;<br>17.17. mova &#8211; язык &#8211; +<br>18.18. petnalovec &#8211; пятьдесят &#8211;<br>19.19. budova &#8211; здание &#8211; +<br>20.20. fov casove &#8211; время уроков &#8211; &#8211;<br>21.21. usmeni &#8211; устный &#8211;<br>22.22. sav &#8211; весь<br>23.23. gradiva &#8211; материал &#8211; &#8211; &#8211;<br>24.24. eventualnog &#8211; возможный &#8211;<br>25.25. korigovati &#8211; корректировать &#8211; &#8211; &#8211;  &#8211;<br>26.26. predavanja &#8211; лекции<br>27.27. bratece &#8211; братский &#8211; <br>28.28. vecu &#8211; больший &#8211;<br>29.29. prosek &#8211; средний<br>30.30. pripremete &#8211; подготовка &#8211; &#8211; &#8211;<br>31.31. prvu liju &#8211; первую лигу &#8211;<br>32.32. jos &#8211; ещё<br>33.33. nalaknacih &#8211; расчёсанный &#8211; <br>34.34. smima &#8211; шум &#8211; &#8211; &#8211;<br>35.35. snimati &#8211; записывать<br>36.36. sapridavnisa &#8211; дополнительный<br>37.37. tucno &#8211; толстый &#8211;<br>38.38. potrenuda zarasporo &#8211; нужда в срочной помощи &#8211;</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Math-1 The Trigonometric Trials: A Star Wars Adventure</title>
+		<link>/2024/04/19/math-trigonometry/</link>
+		
+		<dc:creator><![CDATA[Vimpil]]></dc:creator>
+		<pubDate>Fri, 19 Apr 2024 18:37:03 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Math]]></category>
+		<category><![CDATA[Star Wars]]></category>
+		<guid isPermaLink="false">/?p=24</guid>
+
+					<description><![CDATA[Introduction: In a galaxy far, far away, where the Force binds all things together, a group of young Jedi apprentices embarks on a quest to master the ancient art of trigonometry. Led by the wise Jedi Master Trigonos, they journey across the stars, facing challenges and battling dark forces along the way. Our story begins [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Introduction:</p>
+
+
+
+<p>In a galaxy far, far away, where the Force binds all things together, a group of young Jedi apprentices embarks on a quest to master the ancient art of trigonometry. Led by the wise Jedi Master Trigonos, they journey across the stars, facing challenges and battling dark forces along the way.</p>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-1 wp-block-group-is-layout-flex">
+<p>Our story begins on the peaceful planet of Coruscant, where the Jedi Temple stands as a beacon of knowledge and learning. In the heart of the temple, the Jedi Council has gathered to address the growing threat of the Sith, who seek to disrupt the balance of the Force.</p>
+
+
+
+<p>Master Trigonos, renowned for his mastery of both the Force and mathematics, presents a bold plan to combat the Sith: to train a new generation of Jedi in the ways of trigonometry, harnessing its power to unlock the secrets of the universe and defeat the dark side once and for all.</p>
+
+
+
+<p>As the chosen apprentices, you, along with your fellow Jedi hopefuls, are summoned to the Jedi Council chamber. There, Master Trigonos greets you with a solemn expression, his eyes shimmering with the wisdom of ages past.</p>
+
+
+
+<p>&#8220;Welcome, young Padawans,&#8221; he begins, his voice echoing through the chamber. &#8220;You have been chosen for a great task, one that will test your skills and your courage. The path ahead will not be easy, but together, we will prevail.&#8221;</p>
+
+
+
+<p>Ancient Knowledge scripts:</p>
+
+
+
+<p><a href="https://bymath.net/">https://bymath.net/</a></p>
+
+
+
+<p>Old Ancient Trigonometry sheets:</p>
+
+
+
+<p><a href="https://www.eeweb.com/wp-content/uploads/tools-assets-math-help-trigonometry-laws-and-identities-small.png">https://www.eeweb.com/wp-content/uploads/tools-assets-math-help-trigonometry-laws-and-identities-small.png</a></p>
+</div>
+
+
+
+<p></p>
+
+
+
+<p>Simplified tricks:</p>
+
+
+
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-2 wp-block-group-is-layout-flex">
+<p>Sum to Product Identities:</p>
+
+
+
+<p><a href="https://www.youtube.com/watch?v=BCJrQDH1Fok&amp;ab_channel=TeachingBooth">https://www.youtube.com/watch?v=BCJrQDH1Fok&amp;ab_channel=TeachingBooth</a></p>
+
+
+
+<p> Sin Cos Product into Sum formula:</p>
+
+
+
+<p><iframe title="Maths TRICK  Easiest way to Memorize Sin Cos Product into Sum formula" width="500" height="375" src="https://www.youtube.com/embed/r64gA34VOnY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+
+
+
+<p>***</p>
+</div>
+
+
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mrow>
+    <msqrt>
+      <mn>3</mn>
+    </msqrt>
+    <mo>&#8290;</mo>
+    <mi>sin</mi>
+    <mo>&#8290;</mo>
+    <mo stretchy="false">(</mo>
+    <mn>3</mn>
+    <mi>x</mi>
+    <mo stretchy="false">)</mo>
+    <mo>&#8722;</mo>
+    <mi>cos</mi>
+    <mo>&#8290;</mo>
+    <mo stretchy="false">(</mo>
+    <mn>3</mn>
+    <mi>x</mi>
+    <mo stretchy="false">)</mo>
+    <mo>=</mo>
+    <mn>1</mn>
+  </mrow>
+</math>
+
+
+
+<p>the main principle is to divide both part on 2, this way we will get</p>
+
+
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mrow>
+    <mi>tan</mi>
+    <mo>&#8290;</mo>
+    <mo stretchy="false">(</mo>
+    <mn>3</mn>
+    <mo>&#8290;</mo>
+    <mi>&#x03C0;</mi>
+    <mo stretchy="false">)</mo>
+    <mo>=</mo>
+    <mn>3</mn>
+  </mrow>
+</math>
+
+
+
+<p>that is equal to</p>
+
+
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mrow>
+    <mi>x</mi>
+    <mo>=</mo>
+    <msup>
+      <mo>(</mo>
+      <mn>-1</mn>
+      <mo>)</mo>
+      <msub>
+        <mi>k</mi>
+        <mtext>deg</mtext>
+      </msub>
+    </msup>
+    <mo>&#x22C5;</mo>
+    <mfrac>
+      <mi>k</mi>
+      <mn>18</mn>
+    </mfrac>
+    <mi>&#x03C0;</mi>
+    <mo>/</mo>
+    <mn>18</mn>
+    <mo>+</mo>
+    <mfrac>
+      <mi>&#x03C0;</mi>
+      <mn>3</mn>
+    </mfrac>
+    <mo>&#x22C5;</mo>
+    <mi>k</mi>
+  </mrow>
+ 
+</math>
+
+
+
+<p>where x=(-1)deg k makes it real to adapt k/18 pi for the both negative and positive position.</p>
+
+
+
+<p>***</p>
+
+
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mrow>
+    <mn>2</mn>
+    <mo>&#x22C5;</mo>
+    <mi>sin</mi>
+    <mo>(</mo>
+    <mn>2</mn>
+    <mi>x</mi>
+    <mo>)</mo>
+    <mo>&#x22C5;</mo>
+    <mi>sin</mi>
+    <mo>(</mo>
+    <mn>6</mn>
+    <mi>x</mi>
+    <mo>)</mo>
+    <mo>=</mo>
+    <mi>cos</mi>
+    <mo>(</mo>
+    <mn>4</mn>
+    <mi>x</mi>
+    <mo>)</mo>
+  </mrow>
+</math>
+
+
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mi>x</mi>
+  <mo>=</mo>
+  <mrow>
+    <mfrac>
+      <mi>p</mi>
+      <mn>16</mn>
+    </mfrac>
+    <mo>+</mo>
+    <mrow>
+      <mfrac>
+        <mi>p</mi>
+        <mn>8</mn>
+      </mfrac>
+      <mi>k</mi>
+    </mrow>
+  </mrow>
+</math>
+
+
+
+<p>it was transformation multiplication of sines in the left part of trigonometrical inequality</p>
+
+
+
+<p>***</p>
+
+
+
+<p>1.</p>
+
+
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+    <mfrac>
+      <mrow>
+        <msin>
+          <mrow>
+            <mfrac>
+              <mrow>
+                <mn>34</mn>
+                <mi>&#x03C0;</mi>
+              </mrow>
+              <mrow>
+                <mn>15</mn>
+              </mrow>
+            </mfrac>
+          </mrow>
+        </msin>
+        <mo>&#x2217;</mo>
+        <mrow>
+          <mi>tan</mi>
+          <mo>&#x2061;</mo>
+          <mo stretchy="false">(</mo>
+          <mn>-1125</mn>
+          <mo>&#x00B0;</mo>
+          <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>&#x2217;</mo>
+        <msin>
+          <mn>242</mn>
+          <mo>&#x00B0;</mo>
+        </msin>
+      </mrow>
+      <mrow>
+        <mrow>
+          <mrow>
+            <mcos>
+              <mn>222</mn>
+              <mo>&#x00B0;</mo>
+            </mcos>
+          </mrow>
+        </mrow>
+        <mo>&#x2217;</mo>
+        <mrow>
+          <mi>ctg</mi>
+          <mo>&#x2061;</mo>
+          <mo stretchy="false">(</mo>
+          <mrow>
+            <mfrac>
+              <mrow>
+                <mn>7</mn>
+                <mi>&#x03C0;</mi>
+              </mrow>
+              <mrow>
+                <mn>6</mn>
+              </mrow>
+            </mfrac>
+          </mrow>
+          <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>&#x2217;</mo>
+        <mrow>
+          <mrow>
+            <mrow>
+              <mcos>
+                <mrow>
+                  <mo>&#8211;</mo>
+                  <mn>692</mn>
+                </mrow>
+                <mo>&#x00B0;</mo>
+              </mcos>
+            </mrow>
+          </mrow>
+        </mrow>
+      </mrow>
+    </mfrac>
+    <mo>;</mo>
+  </math>
+
+
+
+<p>The solution is achieved by reducing angles to 360 degrees and then transforming trigonometric functions with their subsequent reduction. So after that the sqr 3 / 3 goes. Also, it is important to note the significance of maintaining the integral structure of the numerator for the convenience of further interactions with the number.</p>
+
+
+
+<p>2.</p>
+
+
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mfrac>
+    <mrow>
+      <mrow>
+        <mi>tan</mi>
+        <mo stretchy="false">(</mo>
+        <mrow>
+          <mo>&#8211;</mo>
+          <mfrac>
+            <mn>10</mn>
+            <mn>17</mn>
+            <mi>&#x03C0;</mi>
+          </mfrac>
+        </mrow>
+        <mo stretchy="false">)</mo>
+        <mo>&#x2217;</mo>
+        <mi>sin</mi>
+        <mo>&#x2061;</mo>
+        <mo stretchy="false">(</mo>
+        <mrow>
+          <mo>&#8211;</mo>
+          <mn>744</mn>
+          <mo>&#x00B0;</mo>
+        </mrow>
+        <mo stretchy="false">)</mo>
+        <mo>&#x2217;</mo>
+        <mi>cos</mi>
+        <mo>&#x2061;</mo>
+        <mo stretchy="false">(</mo>
+        <mrow>
+          <mfrac>
+            <mn>4</mn>
+            <mn>7</mn>
+            <mi>&#x03C0;</mi>
+          </mfrac>
+        </mrow>
+        <mo stretchy="false">)</mo>
+      </mrow>
+    </mrow>
+    <mrow>
+      <mi>sin</mi>
+      <mo>&#x2061;</mo>
+      <mo stretchy="false">(</mo>
+      <mrow>
+        <mo>&#8211;</mo>
+        <mfrac>
+          <mn>11</mn>
+          <mn>6</mn>
+          <mi>&#x03C0;</mi>
+        </mfrac>
+      </mrow>
+      <mo stretchy="false">)</mo>
+      <mo>&#x2217;</mo>
+      <mi>cos</mi>
+      <mo>&#x2061;</mo>
+      <mo stretchy="false">(</mo>
+      <mrow>
+        <mo>&#8211;</mo>
+        <mn>246</mn>
+        <mo>&#x00B0;</mo>
+      </mrow>
+      <mo stretchy="false">)</mo>
+      <mo>&#x2217;</mo>
+      <mi>cot</mi>
+      <mo>&#x2061;</mo>
+      <mo stretchy="false">(</mo>
+      <mn>396</mn>
+      <mo>&#x00B0;</mo>
+      <mo stretchy="false">)</mo>
+    </mrow>
+  </mfrac>
+</math>
+
+
+
+<p>the key is trigonometric co-function identities</p>
+
+
+
+<p>3.1</p>
+
+
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mrow>
+    <mn>2</mn>
+    <mo>&#8290;</mo>
+    <mi>sin</mi>
+    <mo stretchy="false">(</mo>
+    <mrow>
+      <mn>3</mn>
+      <mi>x</mi>
+      <mo>&#8290;</mo>
+      <mo>&#8722;</mo>
+      <mfrac>
+        <mi>&#928;</mi>
+        <mn>3</mn>
+      </mfrac>
+    </mrow>
+    <mo stretchy="false">)</mo>
+    <mo>=</mo>
+    <mn>1</mn>
+  </mrow>
+</math>
+
+
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mrow>
+    <mi>x</mi>
+    <mo>=</mo>
+    <mfrac>
+      <mrow>
+        <mo>&#8211;</mo>
+        <mi>&#928;</mi>
+        <mi>n</mi>
+      </mrow>
+      <mn>18</mn>
+    </mfrac>
+    <mo>+</mo>
+    <mfrac>
+<mrow>
+<mi>&#928;</mi>
+</mrow>
+      <mn>9</mn>
+      
+    </mfrac>
+    <mo>+</mo>
+    <mfrac>
+      <mrow>
+        <mi>&#928;</mi>
+        <mi>k</mi>
+      </mrow>
+      <mn>3</mn>
+    </mfrac>
+  </mrow>
+</math>
+
+
+
+<p>The important thing is not to forget to move the two to the other side of the equation right at the beginning.</p>
+
+
+
+<p>3.2</p>
+
+
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mrow>
+    <msup>
+      <mi>tan</mi>
+      <mn>2</mn>
+    </msup>
+    <mo>&#8290;</mo>
+    <mo>(</mo>
+    <mfrac>
+      <mi>x</mi>
+      <mn>2</mn>
+    </mfrac>
+    <mo>&#8290;</mo>
+    <mo>&#8211;</mo>
+    <mfrac>
+      <mi>&#928;</mi>
+      <mn>4</mn>
+    </mfrac>
+    <mo>)</mo>
+    <mo>=</mo>
+    <msqrt>
+      <mn>3</mn>
+    </msqrt>
+  </mrow>
+</math>
+
+
+
+<p>simple</p>
+
+
+
+<p>4.1</p>
+
+
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mrow>
+    <mi>x</mi>
+    <mo>=</mo>
+    <mrow>
+      <mfrac>
+        <mi>&#928;</mi>
+        <mn>2</mn>
+      </mfrac>
+      <mo>+</mo>
+      <mi>&#928;</mi>
+      <mi>k</mi>
+    </mrow>
+    <mtext>&#160;and&#160;</mtext>
+    <mi>x</mi>
+    <mo>=</mo>
+    <mo>&#8211;</mo>
+    <mrow>
+      <mfrac>
+        <mi>&#928;</mi>
+        <mn>4</mn>
+      </mfrac>
+      <mo>+</mo>
+      <mi>&#928;</mi>
+      <mi>k</mi>
+    </mrow>
+  </mrow>
+</math>
+
+
+
+<p>-pi/4 is mostly a matter of useful formatting for later use. Be careful about cosx/sinx if you are dividing on 0 that will be undefined, not 0.</p>
+
+
+
+<p>4.2</p>
+
+
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mrow>
+    <mi>sin</mi>
+    <mi>x</mi>
+    <mo>=</mo>
+    <mi>sin</mi>
+    <mn>2</mn>
+    <mi>x</mi>
+  </mrow>
+</math>
+
+
+
+<p>simple</p>
+
+
+
+<p>5.1</p>
+
+
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mrow>
+    <mn>2</mn>
+    <msup>
+      <mi>cos</mi>
+      <mn>2</mn>
+    </msup>
+    <mi>x</mi>
+    <mo>&#x2212;</mo>
+    <mn>7</mn>
+    <mi>cos</mi>
+    <mi>x</mi>
+    <mo>+</mo>
+    <mn>3</mn>
+    <mo>=</mo>
+    <mn>0</mn>
+  </mrow>
+</math>
+
+
+
+<p>simple cos x quadratic equitation</p>
+
+
+
+<p>5.2</p>
+
+
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mrow>
+    <mn>2</mn>
+    <msup>
+      <mi>sin</mi>
+      <mn>2</mn>
+    </msup>
+    <mi>x</mi>
+    <mo>+</mo>
+    <mn>3</mn>
+    <mi>sin</mi>
+    <mi>x</mi>
+    <mo>+</mo>
+    <mn>1</mn>
+    <mo>=</mo>
+    <mn>0</mn>
+  </mrow>
+</math>
+
+
+
+<p>simple, just keep in mind that it is always better to visualise sin/cos positions</p>
+
+
+
+<p>6.</p>
+
+
+
+<p class="has-text-align-center">sin(3𝑥)cos(5𝑥) = sin(4𝑥)cos(6𝑥).</p>
+
+
+
+<p>remember about two sinus positions on the graphic</p>
+
+
+
+<p>7.</p>
+
+
+
+<p class="has-text-align-center">sin x + sin 2x + sin 3x + sin 4x = 0</p>
+
+
+
+<p><span style="color: rgb(13, 13, 13); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, Ubuntu, Cantarell, &quot;Noto Sans&quot;, sans-serif, &quot;Helvetica Neue&quot;, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px;">It is important to maintain fractional proportions when applying formulas.</span></p>
+
+
+
+<p>8.</p>
+
+
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mrow>
+    <msup>
+      <mi>cos</mi>
+      <mn>2</mn>
+    </msup>
+    <mi>x</mi>
+    <mo>+</mo>
+    <mn>3</mn>
+    <msup>
+      <mi>sin</mi>
+      <mn>2</mn>
+    </msup>
+    <mi>x</mi>
+    <mo>+</mo>
+    <mn>2</mn>
+    <mo>∙</mo>
+    <mrow>
+      <msqrt>
+        <mn>3</mn>
+      </msqrt>
+    </mrow>
+    <mi>sin</mi>
+    <mi>x</mi>
+    <mi>cos</mi>
+    <mi>x</mi>
+    <mo>=</mo>
+    <mn>1</mn>
+  </mrow>
+</math>
+
+
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mrow>
+    <mi>tan</mi>
+    <mo>&#x2061;</mo>
+    <mo stretchy="false">(</mo>
+    <mi>&#x03C0;</mi>
+    <mo>&#x2061;</mo>
+    <mo stretchy="false">(</mo>
+    <mrow>
+      <mn>3</mn>
+      <mo>/</mo>
+      <mn>2</mn>
+    </mrow>
+    <mo>+</mo>
+    <mi>k</mi>
+    <mo stretchy="false">)</mo>
+    <mo>=</mo>
+    <mi>tan</mi>
+    <mo>&#x2061;</mo>
+    <mo stretchy="false">(</mo>
+    <mi>&#x03C0;</mi>
+    <mi>k</mi>
+    <mo>&#x2212;</mo>
+    <mrow>
+      <mn>3</mn>
+      <mi>&#x03C0;</mi>
+    </mrow>
+    <mo>&#x2061;</mo>
+    <mo stretchy="false">(</mo>
+    <mn>1</mn>
+    <mo>/</mo>
+    <mn>2</mn>
+    <mo stretchy="false">)</mo>
+    <mo stretchy="false">)</mo>
+  </mrow>
+</math>
+
+
+
+<p>better to answer in math minified version</p>
+
+
+
+<p>9.</p>
+
+
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">  
+<mrow>
+    <mi>sin</mi>
+    <mi>x</mi>
+    <mo>&#8211;</mo>
+    <mrow>
+      <msqrt>
+        <mn>3</mn>
+      </msqrt>
+      <mo>&#x2062;</mo>
+      <mi>cos</mi>
+      <mi>x</mi>
+    </mrow>
+    <mo>=</mo>
+    <mn>2</mn>
+  </mrow>
+</math>
+
+
+
+<p>keep in mind sin/cos values, solved by dividing both sides and then converting into the difference of sine angles</p>
+
+
+
+<p>10.</p>
+
+
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mrow>
+    <mn>2</mn>
+    <mi>sin</mi>
+    <mo stretchy="false">(</mo>
+    <mi>x</mi>
+    <mo stretchy="false">)</mo>
+    <mo>+</mo>
+    <mi>cos</mi>
+    <mo stretchy="false">(</mo>
+    <mn>2</mn>
+    <mi>x</mi>
+    <mo stretchy="false">)</mo>
+    <mo>&gt;</mo>
+    <mn>1</mn>
+  </mrow>
+</math>
+
+
+
+<p>Answer in the solution book is correct, but partially. The full answer is pik&lt;x&lt;pi/2 + 2pik k belongs to Z natural numbers (integer)</p>
+
+
+
+<p>11.</p>
+
+
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">  
+  <msqrt>
+    <mn>3</mn>
+  </msqrt>
+<mo>cos</mo>
+    <mn>4</mn>
+    <mi>x</mi>
+  <mo>+</mo>
+  <msin>
+    <mn>4</mn>
+    <mi>x</mi>
+  </msin>
+  <mo>&gt;</mo>
+  <msqrt>
+    <mn>2</mn>
+  </msqrt>
+</math>
+
+
+
+
+<p>Both parts of the inequality need to be divided to obtain the sum of the cosine and sine angles.</p>
+
+
+
+<p><strong>Optional:</strong> <strong><em>Phase Shift Formula</em></strong> Use the formula for calculating the phase and amplitude to solve the equation.</p>
+
+
+
+<p><a href="https://www.cuemath.com/phase-shift-formula">https://www.cuemath.com/phase-shift-formula</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
